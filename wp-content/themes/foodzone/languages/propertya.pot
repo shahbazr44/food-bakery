@@ -1,0 +1,6030 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Foodzone\n"
+"POT-Creation-Date: 2020-09-16 17:05+0500\n"
+"PO-Revision-Date: 2020-09-16 17:05+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:9
+msgid "404"
+msgstr ""
+
+#: 404.php:10
+msgid "Oops! Page Not Found"
+msgstr ""
+
+#: 404.php:11
+msgid "We're sorry, but the page you were looking for doesn't exist."
+msgstr ""
+
+#: 404.php:12
+msgid "  Go to Home"
+msgstr ""
+
+#: comments.php:9
+msgid "Comments"
+msgstr ""
+
+#: comments.php:16
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:25
+#: template-parts/generic-sections/sidebar/contact/contact.php:13
+#: template-parts/listing-detial/schedule/schedule.php:36
+#: template-parts/listing-detial/sidebar/contact.php:13
+#: template-parts/listing-detial/style-type/classic.php:180
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:32
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:39 inc/options.php:917
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:46
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:49
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:59
+msgid "Leave Your Comment"
+msgstr ""
+
+#: functions.php:239
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/classes/agency/agency.php:22 inc/classes/agency/agency.php:90
+#: inc/classes/agency/agency.php:158 inc/classes/agency/agency.php:211
+#: inc/classes/agency/agency.php:254 inc/classes/agency/agency.php:314
+#: inc/classes/agency/agency.php:360 inc/classes/agency/agency.php:424
+#: inc/classes/agency/agency.php:510 inc/classes/agency/agency.php:575
+#: inc/classes/agents/agents.php:43 inc/classes/agents/agents.php:174
+#: inc/localization.php:48
+#: template-parts/agency-detial/style-type/classic.php:93
+#: template-parts/agent-detial/style-type/classic.php:61
+#: template-parts/buyer-detial/style-type/classic.php:61
+#: template-parts/dashboard/my-properties/expired.php:132
+#: template-parts/dashboard/my-properties/favourites.php:119
+#: template-parts/dashboard/my-properties/featured.php:139
+#: template-parts/dashboard/my-properties/publish.php:141
+#: template-parts/listing-detial/sidebar/profile.php:35
+msgid "Featured"
+msgstr ""
+
+#: inc/classes/agency/agency.php:30 inc/classes/agency/agency.php:96
+#: inc/classes/agency/agency.php:219 inc/classes/agency/agency.php:262
+#: inc/classes/agency/agency.php:322
+#: template-parts/listing-detial/sidebar/profile.php:58
+msgid "Most Recommended"
+msgstr ""
+
+#: inc/classes/agency/agency.php:70 inc/classes/agency/agency.php:137
+#: inc/classes/agency/agency.php:291
+msgid "View Profile"
+msgstr ""
+
+#: inc/classes/agency/agency.php:185 inc/classes/agency/agency.php:557
+#: inc/classes/agency/agency.php:600
+#, php-format
+msgid "Views : %s"
+msgstr ""
+
+#: inc/classes/agency/agency.php:276 inc/classes/agency/agency.php:337
+#, php-format
+msgid "%s Listings"
+msgstr ""
+
+#: inc/classes/agency/agency.php:355
+#, php-format
+msgid "(%s Reviews)"
+msgstr ""
+
+#: inc/classes/agency/agency.php:387 inc/classes/agents/agents.php:83
+#, php-format
+msgid "%s Properties"
+msgstr ""
+
+#: inc/classes/agency/agency.php:428 inc/classes/agency/agency.php:514
+#, php-format
+msgid "Total Listings : %s "
+msgstr ""
+
+#: inc/classes/agency/agency.php:470
+msgid "Mobile"
+msgstr ""
+
+#: inc/classes/agency/agency.php:476 inc/localization.php:67
+#: template-parts/generic-sections/sidebar/contact/contact.php:19
+#: template-parts/listing-detial/schedule/schedule.php:52
+#: template-parts/listing-detial/sidebar/contact.php:19
+#: template-parts/listing-detial/style-type/classic.php:185
+#: woocommerce/single-product-reviews.php:95
+msgid "Email"
+msgstr ""
+
+#: inc/classes/agency/agency.php:483
+msgid "Office"
+msgstr ""
+
+#: inc/classes/agency/agency.php:490
+msgid "Fax"
+msgstr ""
+
+#: inc/classes/agency/agency.php:497
+msgid "WhatsApp"
+msgstr ""
+
+#: inc/classes/agency/agency.php:504 inc/localization.php:117
+#: inc/localization.php:153 inc/options.php:400
+msgid "Working Hours"
+msgstr ""
+
+#: inc/classes/agency/agency.php:556
+#, php-format
+msgid "Listings : %s"
+msgstr ""
+
+#: inc/classes/listings/listings.php:843 inc/classes/listings/listings.php:994
+#: inc/classes/listings/listings.php:1340
+#, php-format
+msgid "%s (%d Reviews)"
+msgstr ""
+
+#: inc/classes/listings/listings.php:1239 inc/localization.php:152
+#: template-parts/agency-detial/style-type/classic.php:136
+#: template-parts/agent-detial/style-type/classic.php:116
+#: template-parts/buyer-detial/style-type/classic.php:116
+#: template-parts/listing-detial/location/location.php:19
+msgid "Get Directions"
+msgstr ""
+
+#: inc/classes/listings/listings.php:1275
+#, php-format
+msgid "Listed on %s"
+msgstr ""
+
+#: inc/classes/listings/listings.php:1421
+msgid "Posted by"
+msgstr ""
+
+#: inc/classes/listings/listings.php:1616
+msgid "Listed by"
+msgstr ""
+
+#: inc/classes/listings/listings.php:1672
+#: template-parts/dashboard/content-area/dashboard.php:317
+#: template-parts/listing-detial/sidebar/stats.php:17
+#, php-format
+msgid "%s Views"
+msgstr ""
+
+#: inc/localization.php:11
+msgid "Keyword"
+msgstr ""
+
+#: inc/localization.php:12 inc/options.php:3741 inc/options.php:3819
+#: inc/options.php:3930 inc/options.php:3931
+msgid "Property Type"
+msgstr ""
+
+#: inc/localization.php:13 inc/localization.php:133 inc/options.php:3978
+msgid "Property Status"
+msgstr ""
+
+#: inc/localization.php:14 inc/options.php:3742 inc/options.php:3820
+#: inc/options.php:3954 inc/options.php:3955
+msgid "Offer Type"
+msgstr ""
+
+#: inc/localization.php:15 inc/options.php:3743 inc/options.php:3821
+#: inc/options.php:3977 inc/options.php:4000 inc/options.php:4026
+msgid "Label"
+msgstr ""
+
+#: inc/localization.php:16 inc/options.php:3744 inc/options.php:3822
+#: inc/options.php:4001
+msgid "Currency Type"
+msgstr ""
+
+#: inc/localization.php:17 inc/options.php:3745 inc/options.php:3823
+msgid "Property Price"
+msgstr ""
+
+#: inc/localization.php:18 inc/options.php:3746 inc/options.php:3824
+msgid "Second Price (Optional)"
+msgstr ""
+
+#: inc/localization.php:19 inc/options.php:4062
+msgid "Before Price Label"
+msgstr ""
+
+#: inc/localization.php:20 inc/options.php:3747 inc/options.php:3825
+#: inc/options.php:4050 inc/options.php:4051
+msgid "After Price Label"
+msgstr ""
+
+#: inc/localization.php:21 inc/options.php:3748 inc/options.php:3826
+#: inc/options.php:4086 inc/options.php:4087
+msgid "Area Size"
+msgstr ""
+
+#: inc/localization.php:22 inc/options.php:3749 inc/options.php:3827
+msgid "Area Size Prefix "
+msgstr ""
+
+#: inc/localization.php:23 inc/options.php:3750 inc/options.php:3828
+#: inc/options.php:4145 inc/options.php:4146
+msgid "Land Area"
+msgstr ""
+
+#: inc/localization.php:24 inc/options.php:3751 inc/options.php:3829
+#: inc/options.php:4178
+msgid "Land Area Prefix"
+msgstr ""
+
+#: inc/localization.php:25 inc/options.php:3752 inc/options.php:3830
+#: inc/options.php:4205 inc/options.php:4456
+msgid "Bedrooms"
+msgstr ""
+
+#: inc/localization.php:26 inc/options.php:3753 inc/options.php:3831
+#: inc/options.php:4217 inc/options.php:4468
+msgid "Bathrooms"
+msgstr ""
+
+#: inc/localization.php:27 inc/options.php:3754 inc/options.php:3832
+#: inc/options.php:4229
+msgid "Garages"
+msgstr ""
+
+#: inc/localization.php:28 inc/options.php:3755 inc/options.php:3833
+msgid "Year Built"
+msgstr ""
+
+#: inc/localization.php:29 inc/options.php:3756 inc/options.php:3834
+#: inc/options.php:4577
+msgid "Amenities and Features"
+msgstr ""
+
+#: inc/localization.php:30 inc/options.php:3757 inc/options.php:3835
+msgid "Video URL"
+msgstr ""
+
+#: inc/localization.php:31 inc/options.php:3758 inc/options.php:3836
+msgid "360 Virtual Tour Iframe"
+msgstr ""
+
+#: inc/localization.php:32 inc/options.php:3759 inc/options.php:3837
+msgid "Description Box"
+msgstr ""
+
+#: inc/localization.php:33 inc/options.php:3760 inc/options.php:3838
+msgid "Gallery"
+msgstr ""
+
+#: inc/localization.php:34 inc/options.php:3761 inc/options.php:3839
+msgid "Zipcode"
+msgstr ""
+
+#: inc/localization.php:35 inc/options.php:3762 inc/options.php:3840
+msgid "Street Address"
+msgstr ""
+
+#: inc/localization.php:36 inc/options.php:3763 inc/options.php:3841
+msgid "Map"
+msgstr ""
+
+#: inc/localization.php:37 inc/localization.php:100 inc/options.php:3842
+#: inc/options.php:4338
+msgid "Coordinates"
+msgstr ""
+
+#: inc/localization.php:38 inc/options.php:3764 inc/options.php:3843
+msgid "Location (Country / State / Town)"
+msgstr ""
+
+#: inc/localization.php:39 inc/options.php:1817 inc/options.php:1873
+#: inc/options.php:3765 inc/options.php:4589
+msgid "Floor Plans"
+msgstr ""
+
+#: inc/localization.php:40 inc/options.php:3766
+msgid "Additional Fields"
+msgstr ""
+
+#: inc/localization.php:41 inc/options.php:1818 inc/options.php:1879
+#: inc/options.php:3767 inc/options.php:3846 inc/options.php:4601
+msgid "Attachments"
+msgstr ""
+
+#: inc/localization.php:42 inc/localization.php:178
+msgid "Dashboard"
+msgstr ""
+
+#: inc/localization.php:43 inc/localization.php:106
+msgid "My Profile"
+msgstr ""
+
+#: inc/localization.php:44
+msgid "My Properties"
+msgstr ""
+
+#: inc/localization.php:45
+msgid "Add New Property"
+msgstr ""
+
+#: inc/localization.php:46
+msgid "Published"
+msgstr ""
+
+#: inc/localization.php:47
+msgid "Pending"
+msgstr ""
+
+#: inc/localization.php:49 inc/options.php:1309 inc/theme_functions.php:310
+msgid "Expired"
+msgstr ""
+
+#: inc/localization.php:50
+msgid "Search listing"
+msgstr ""
+
+#: inc/localization.php:51
+msgid "Action"
+msgstr ""
+
+#: inc/localization.php:52 inc/localization.php:132
+#: template-parts/listing-detial/floorplans/plans.php:56
+#: woocommerce/cart/cart.php:74
+msgid "Price"
+msgstr ""
+
+#: inc/localization.php:53 inc/options.php:3961
+msgid "Listed In"
+msgstr ""
+
+#: inc/localization.php:54 template-parts/dashboard/my-properties/order.php:122
+msgid "Listing"
+msgstr ""
+
+#: inc/localization.php:55
+msgid "Published Properties"
+msgstr ""
+
+#: inc/localization.php:56
+msgid "Expired Properties"
+msgstr ""
+
+#: inc/localization.php:57
+msgid "Pending Properties"
+msgstr ""
+
+#: inc/localization.php:58
+msgid "Featured Properties"
+msgstr ""
+
+#: inc/localization.php:59
+msgid " Approval Required!"
+msgstr ""
+
+#: inc/localization.php:60
+msgid "Waiting for admin approval. "
+msgstr ""
+
+#: inc/localization.php:61 inc/localization.php:77 inc/options.php:515
+#: inc/options.php:559
+msgid "Agents"
+msgstr ""
+
+#: inc/localization.php:62
+msgid "Agent Name"
+msgstr ""
+
+#: inc/localization.php:63 inc/localization.php:150
+msgid "Display Name"
+msgstr ""
+
+#: inc/localization.php:64
+msgid "Add New Agent"
+msgstr ""
+
+#: inc/localization.php:65
+msgid "View All Agent"
+msgstr ""
+
+#: inc/localization.php:66
+msgid "Username"
+msgstr ""
+
+#: inc/localization.php:68 inc/options.php:394
+msgid "Agent Type"
+msgstr ""
+
+#: inc/localization.php:69
+msgid "Agent type is required."
+msgstr ""
+
+#: inc/localization.php:70 inc/localization.php:80 inc/options.php:340
+#: inc/options.php:393 inc/options.php:454
+msgid "Mobile Number"
+msgstr ""
+
+#: inc/localization.php:71
+msgid "Password"
+msgstr ""
+
+#: inc/localization.php:72
+msgid "Username is required."
+msgstr ""
+
+#: inc/localization.php:73 inc/localization.php:196
+msgid "You have not given a correct e-mail address."
+msgstr ""
+
+#: inc/localization.php:74
+msgid "Please choose a password with at least 3-12 characters."
+msgstr ""
+
+#: inc/localization.php:75
+msgid "Send the new user an email about their account."
+msgstr ""
+
+#: inc/localization.php:76
+msgid "Search agents..."
+msgstr ""
+
+#: inc/localization.php:78
+msgid "Agency Name"
+msgstr ""
+
+#: inc/localization.php:79
+msgid "Expire On"
+msgstr ""
+
+#: inc/localization.php:81 inc/options.php:341 inc/options.php:396
+#: inc/options.php:455
+msgid "WhatsApp Number"
+msgstr ""
+
+#: inc/localization.php:82 inc/options.php:342 inc/options.php:397
+msgid "Office Number"
+msgstr ""
+
+#: inc/localization.php:83 inc/options.php:343 inc/options.php:398
+msgid "Fax Number"
+msgstr ""
+
+#: inc/localization.php:84
+msgid "License Number"
+msgstr ""
+
+#: inc/localization.php:85 inc/options.php:344
+msgid "Agency License"
+msgstr ""
+
+#: inc/localization.php:86 inc/options.php:345
+msgid "Tax Number"
+msgstr ""
+
+#: inc/localization.php:87 inc/options.php:346 inc/options.php:399
+msgid "Website Url"
+msgstr ""
+
+#: inc/localization.php:88 inc/localization.php:102 inc/options.php:347
+#: inc/options.php:395
+msgid "Agency Location"
+msgstr ""
+
+#: inc/localization.php:89 inc/options.php:348
+msgid "About Agency"
+msgstr ""
+
+#: inc/localization.php:90 inc/options.php:403 inc/options.php:456
+msgid "About Agent"
+msgstr ""
+
+#: inc/localization.php:91
+msgid "About Yourself"
+msgstr ""
+
+#: inc/localization.php:92
+msgid "Your Location"
+msgstr ""
+
+#: inc/localization.php:93 inc/options.php:349 inc/options.php:404
+#: inc/options.php:457
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/localization.php:94 inc/options.php:350 inc/options.php:405
+#: inc/options.php:458
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/localization.php:95 inc/options.php:351 inc/options.php:406
+#: inc/options.php:459
+msgid "LinkedIn URL"
+msgstr ""
+
+#: inc/localization.php:96 inc/options.php:352 inc/options.php:407
+#: inc/options.php:460
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/localization.php:97 inc/options.php:408
+msgid "Youtube URL"
+msgstr ""
+
+#: inc/localization.php:98 inc/options.php:353 inc/options.php:409
+#: inc/options.php:461
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/localization.php:99 inc/options.php:354 inc/options.php:410
+#: inc/options.php:462 inc/options.php:1815 inc/options.php:1861
+#: inc/options.php:4325 inc/theme_utilities.php:798
+msgid "Address"
+msgstr ""
+
+#: inc/localization.php:101
+msgid "Save Changes"
+msgstr ""
+
+#: inc/localization.php:103
+msgid "Agent Location"
+msgstr ""
+
+#: inc/localization.php:104 inc/options.php:5255
+msgid "Social Media"
+msgstr ""
+
+#: inc/localization.php:105
+msgid "Account Settings"
+msgstr ""
+
+#: inc/localization.php:107
+msgid "Featured Image"
+msgstr ""
+
+#: inc/localization.php:108
+msgid "Edit Password"
+msgstr ""
+
+#: inc/localization.php:109
+msgid "Current Password"
+msgstr ""
+
+#: inc/localization.php:110
+msgid "New Password"
+msgstr ""
+
+#: inc/localization.php:111
+msgid "Confirm Password"
+msgstr ""
+
+#: inc/localization.php:112 template-parts/authorization/password-reset.php:22
+msgid "Change My Password"
+msgstr ""
+
+#: inc/localization.php:113
+msgid "Account Deletion"
+msgstr ""
+
+#: inc/localization.php:114
+msgid ""
+"If you want to delete your account your all data will be removed from this "
+"site."
+msgstr ""
+
+#: inc/localization.php:115
+msgid "Delete My Account"
+msgstr ""
+
+#: inc/localization.php:116 inc/options.php:401
+msgid "Skype"
+msgstr ""
+
+#: inc/localization.php:118 inc/nav.php:204 inc/nav.php:207
+msgid "Home"
+msgstr ""
+
+#: inc/localization.php:119
+msgid "Page"
+msgstr ""
+
+#: inc/localization.php:120
+msgid "of"
+msgstr ""
+
+#: inc/localization.php:121
+msgid "User Type"
+msgstr ""
+
+#: inc/localization.php:122 inc/localization.php:212
+msgid "All fields are required."
+msgstr ""
+
+#: inc/localization.php:123 template-parts/dashboard/sidebar/sidebar.php:95
+msgid "Logout"
+msgstr ""
+
+#: inc/localization.php:124
+msgid "Sign Up"
+msgstr ""
+
+#: inc/localization.php:125 inc/theme_utilities.php:256
+msgid "Sign In"
+msgstr ""
+
+#: inc/localization.php:126
+msgid "Or Register With"
+msgstr ""
+
+#: inc/localization.php:127
+msgid "Or Login With"
+msgstr ""
+
+#: inc/localization.php:128
+msgid "Processing..."
+msgstr ""
+
+#: inc/localization.php:129
+msgid "Google"
+msgstr ""
+
+#: inc/localization.php:130
+msgid "Facebook"
+msgstr ""
+
+#: inc/localization.php:131
+msgid "Detials"
+msgstr ""
+
+#: inc/localization.php:134 inc/localization.php:154 inc/localization.php:170
+#: template-parts/search/property-search/search-with-modern.php:227
+#: template-parts/search/property-search/search-with-modern.php:228
+#: template-parts/search/property-search/search-with-sidebar.php:220
+#: template-parts/search/property-search/search-with-sidebar.php:221
+msgid "Property ID"
+msgstr ""
+
+#: inc/localization.php:135
+msgid "Property Size"
+msgstr ""
+
+#: inc/localization.php:136
+msgid "Additional Detials"
+msgstr ""
+
+#: inc/localization.php:137
+msgid "Review Title"
+msgstr ""
+
+#: inc/localization.php:138
+msgid "Your Review"
+msgstr ""
+
+#: inc/localization.php:139 inc/options.php:527 inc/options.php:566
+#: inc/options.php:1921
+msgid "Write a Review"
+msgstr ""
+
+#: inc/localization.php:140
+msgid "Rating"
+msgstr ""
+
+#: inc/localization.php:141
+msgid "Beds"
+msgstr ""
+
+#: inc/localization.php:142
+msgid "Baths"
+msgstr ""
+
+#: inc/localization.php:143
+#: template-parts/listing-detial/floorplans/plans.php:29
+msgid "Size"
+msgstr ""
+
+#: inc/localization.php:144
+msgid "Favourite"
+msgstr ""
+
+#: inc/localization.php:145
+msgid "Favorites"
+msgstr ""
+
+#: inc/localization.php:146
+msgid "Favorites Properties"
+msgstr ""
+
+#: inc/localization.php:147 template-parts/compare/compare-listings.php:55
+msgid "Compare"
+msgstr ""
+
+#: inc/localization.php:148
+msgid "Member Since"
+msgstr ""
+
+#: inc/localization.php:149
+msgid "Featured Listings "
+msgstr ""
+
+#: inc/localization.php:151
+msgid "Agency Agent or Buyer display name"
+msgstr ""
+
+#: inc/localization.php:155
+msgid "Near Me"
+msgstr ""
+
+#: inc/localization.php:156
+msgid "Verified Listing"
+msgstr ""
+
+#: inc/localization.php:157
+msgid "Total Published"
+msgstr ""
+
+#: inc/localization.php:158
+msgid "Total Pending"
+msgstr ""
+
+#: inc/localization.php:159
+msgid "Total Featured"
+msgstr ""
+
+#: inc/localization.php:160
+msgid "Total Expired"
+msgstr ""
+
+#: inc/localization.php:161 inc/options.php:736 inc/options.php:782
+#: inc/options.php:827 template-parts/agency-detial/style-type/classic.php:150
+#: template-parts/agent-detial/style-type/classic.php:130
+#: template-parts/buyer-detial/style-type/classic.php:130
+msgid "Views"
+msgstr ""
+
+#: inc/localization.php:162
+msgid "Property Reviews"
+msgstr ""
+
+#: inc/localization.php:163
+msgid "Profile Reviews"
+msgstr ""
+
+#: inc/localization.php:164
+msgid "Submitted Reviews"
+msgstr ""
+
+#: inc/localization.php:165
+msgid "Received Reviews"
+msgstr ""
+
+#: inc/localization.php:166
+msgid "Invoices"
+msgstr ""
+
+#: inc/localization.php:167 tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/localization.php:168
+msgid "Transaction ID"
+msgstr ""
+
+#: inc/localization.php:169 woocommerce/cart/cart-totals.php:100
+#: woocommerce/order/order-details.php:52
+msgid "Total"
+msgstr ""
+
+#: inc/localization.php:171
+msgid "Orders History"
+msgstr ""
+
+#: inc/localization.php:172
+msgid "Method"
+msgstr ""
+
+#: inc/localization.php:173
+msgid "Total Average"
+msgstr ""
+
+#: inc/localization.php:174
+msgid "Total Reviews"
+msgstr ""
+
+#: inc/localization.php:175
+msgid "Total Stars"
+msgstr ""
+
+#: inc/localization.php:176
+#: template-parts/dashboard/content-area/dashboard.php:212
+#: template-parts/generic-sections/sidebar/score/score.php:58
+msgid "Recommendations"
+msgstr ""
+
+#: inc/localization.php:177
+msgid "Welcome back,"
+msgstr ""
+
+#: inc/localization.php:179
+msgid "Recent Activities"
+msgstr ""
+
+#: inc/localization.php:194
+msgid "Name field is required."
+msgstr ""
+
+#: inc/localization.php:195
+msgid "Please enter a valid mobile number."
+msgstr ""
+
+#: inc/localization.php:197
+msgid "Please enter a WhatsApp number."
+msgstr ""
+
+#: inc/localization.php:198
+msgid "Please enter a office number."
+msgstr ""
+
+#: inc/localization.php:199
+msgid "Fax number is required."
+msgstr ""
+
+#: inc/localization.php:200
+msgid "License is required."
+msgstr ""
+
+#: inc/localization.php:201
+msgid "Tax number is required."
+msgstr ""
+
+#: inc/localization.php:202
+msgid "Please enter a valid Website URL."
+msgstr ""
+
+#: inc/localization.php:203
+msgid "Location is required."
+msgstr ""
+
+#: inc/localization.php:204
+msgid "About field is required."
+msgstr ""
+
+#: inc/localization.php:205
+msgid "Please enter a valid Facebook URL."
+msgstr ""
+
+#: inc/localization.php:206
+msgid "Please enter a valid Twitter URL."
+msgstr ""
+
+#: inc/localization.php:207
+msgid "Please enter a valid LinkedIn URL."
+msgstr ""
+
+#: inc/localization.php:208
+msgid "Please enter a valid Instagram URL."
+msgstr ""
+
+#: inc/localization.php:209
+msgid "Please enter a valid Youtube URL."
+msgstr ""
+
+#: inc/localization.php:210
+msgid "Please enter a valid Pinterest URL."
+msgstr ""
+
+#: inc/localization.php:211
+msgid "Address field is required."
+msgstr ""
+
+#: inc/localization.php:213
+msgid "Type fields is required."
+msgstr ""
+
+#: inc/localization.php:214
+msgid "The working hours field is required."
+msgstr ""
+
+#: inc/localization.php:215
+msgid "The skype field is required."
+msgstr ""
+
+#: inc/localization.php:216
+msgid "The position field is required."
+msgstr ""
+
+#: inc/nav.php:314 inc/nav.php:334
+msgid "Select Option"
+msgstr ""
+
+#: inc/nav.php:314
+msgid "Simple Menu"
+msgstr ""
+
+#: inc/nav.php:314
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/nav.php:327
+msgid "Column size "
+msgstr ""
+
+#: inc/nav.php:334
+msgid "Left to Right"
+msgstr ""
+
+#: inc/nav.php:334
+msgid "Right to Left"
+msgstr ""
+
+#: inc/nav.php:346 inc/nav.php:356
+msgid "Select Option - (No Offset)"
+msgstr ""
+
+#: inc/nav.php:349
+msgid "Column Offset "
+msgstr ""
+
+#: inc/nav.php:359
+msgid "Vertical Offset"
+msgstr ""
+
+#: inc/nav.php:432
+msgid ""
+"If you want to hide column name in mega menu just write {HideMe} in  "
+"Navigation Label"
+msgstr ""
+
+#: inc/nav.php:437
+msgid "Lebel Color"
+msgstr ""
+
+#: inc/nav.php:443
+msgid "Lebel Text"
+msgstr ""
+
+#: inc/nav.php:445
+msgid "Enter some text"
+msgstr ""
+
+#: inc/nav.php:450
+msgid "This select option is only for 1st level menu"
+msgstr ""
+
+#: inc/nav.php:456
+msgid "In parent add bigger value and in 2nd level add small value"
+msgstr ""
+
+#: inc/nav.php:462
+msgid "Menu Icons (Font Awesome Icons). "
+msgstr ""
+
+#: inc/nav.php:469
+msgid "Select Options - For simple menu only"
+msgstr ""
+
+#: inc/options.php:22 inc/options.php:23
+msgid "Foodzone Options"
+msgstr ""
+
+#: inc/options.php:106
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/options.php:108
+msgid "These are really basic fields to setup theme!"
+msgstr ""
+
+#: inc/options.php:114 inc/options.php:3686
+msgid "General Settings"
+msgstr ""
+
+#: inc/options.php:123
+msgid "Show Site Preloader"
+msgstr ""
+
+#: inc/options.php:125
+msgid "Trun on or off site loader."
+msgstr ""
+
+#: inc/options.php:131
+msgid "Theme Main (Primary) Color"
+msgstr ""
+
+#: inc/options.php:132
+msgid "Theme  main color (default: #2296f9) hover color as well."
+msgstr ""
+
+#: inc/options.php:140
+msgid "Theme Buttons Colors"
+msgstr ""
+
+#: inc/options.php:150
+msgid "Demo Mode"
+msgstr ""
+
+#: inc/options.php:152 inc/options.php:159
+msgid "Only for demo purpose don't enable on your site."
+msgstr ""
+
+#: inc/options.php:157
+msgid "Dashboard Menu"
+msgstr ""
+
+#: inc/options.php:167
+msgid "Header Settings"
+msgstr ""
+
+#: inc/options.php:178
+msgid "Header Layout"
+msgstr ""
+
+#: inc/options.php:179
+msgid "Select Header Layout you want to show."
+msgstr ""
+
+#: inc/options.php:182
+msgid "Header Layout 1"
+msgstr ""
+
+#: inc/options.php:186
+msgid "Header Layout 2"
+msgstr ""
+
+#: inc/options.php:196
+msgid "Logo"
+msgstr ""
+
+#: inc/options.php:198
+msgid "Upload main logo of your website."
+msgstr ""
+
+#: inc/options.php:205
+msgid "Transparent Logo"
+msgstr ""
+
+#: inc/options.php:207
+msgid "Upload transparent logo of your website."
+msgstr ""
+
+#: inc/options.php:215
+msgid "Small Logo For Mobile Devices"
+msgstr ""
+
+#: inc/options.php:217
+msgid "Logo that shows at mobile resolution."
+msgstr ""
+
+#: inc/options.php:225
+msgid "Show Search Button"
+msgstr ""
+
+#: inc/options.php:231 inc/options.php:249 inc/options.php:2515
+msgid "Button Text"
+msgstr ""
+
+#: inc/options.php:232
+msgid "Search Properties"
+msgstr ""
+
+#: inc/options.php:240
+msgid "Select Page Link"
+msgstr ""
+
+#: inc/options.php:241 inc/options.php:3130
+msgid "Select page you want to show."
+msgstr ""
+
+#: inc/options.php:250
+msgid "Call us"
+msgstr ""
+
+#: inc/options.php:256
+msgid "Contact Number/Anything"
+msgstr ""
+
+#: inc/options.php:257
+msgid "+92-123-4567"
+msgstr ""
+
+#: inc/options.php:264
+msgid "Icon"
+msgstr ""
+
+#: inc/options.php:266
+msgid "Icon for text. Recommended size 35x35"
+msgstr ""
+
+#: inc/options.php:277
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/options.php:286
+msgid "Breadcrumb Type"
+msgstr ""
+
+#: inc/options.php:287
+msgid "Select breadcrumb Layout you want to show."
+msgstr ""
+
+#: inc/options.php:290
+msgid "Minimal"
+msgstr ""
+
+#: inc/options.php:294 inc/options.php:1794
+msgid "Classic"
+msgstr ""
+
+#: inc/options.php:304
+msgid "Breadcrumb Background Image"
+msgstr ""
+
+#: inc/options.php:314
+msgid "Dashboard Settings"
+msgstr ""
+
+#: inc/options.php:316
+msgid "Here you can setup the dashboard settings"
+msgstr ""
+
+#: inc/options.php:324
+msgid "Agency Profile Fields"
+msgstr ""
+
+#: inc/options.php:334 inc/options.php:388 inc/options.php:449
+#: inc/options.php:3813
+msgid "Form Required Fields"
+msgstr ""
+
+#: inc/options.php:335 inc/options.php:336
+msgid "Select the Mandatory Fields for agency."
+msgstr ""
+
+#: inc/options.php:379
+msgid "Agent Profile Fields"
+msgstr ""
+
+#: inc/options.php:389 inc/options.php:390
+msgid "Select the Mandatory Fields for agent."
+msgstr ""
+
+#: inc/options.php:402 template-parts/dashboard/profile/agent.php:167
+msgid "Position"
+msgstr ""
+
+#: inc/options.php:440
+msgid "Buyer Profile Fields"
+msgstr ""
+
+#: inc/options.php:450 inc/options.php:451
+msgid "Select the Mandatory Fields for buyer."
+msgstr ""
+
+#: inc/options.php:480
+msgid "Detail Page General Settings"
+msgstr ""
+
+#: inc/options.php:489
+msgid "Menu Section Text"
+msgstr ""
+
+#: inc/options.php:496
+msgid "Overview Menu"
+msgstr ""
+
+#: inc/options.php:497 inc/options.php:541 inc/options.php:733
+#: inc/options.php:780 inc/options.php:825
+msgid "Overview"
+msgstr ""
+
+#: inc/options.php:502
+msgid "Listings Menu"
+msgstr ""
+
+#: inc/options.php:503 inc/options.php:547
+msgid "Listings"
+msgstr ""
+
+#: inc/options.php:508
+msgid "Daily Views Menu"
+msgstr ""
+
+#: inc/options.php:509 inc/options.php:553
+msgid "Daily Views"
+msgstr ""
+
+#: inc/options.php:514
+msgid "Agents Menu"
+msgstr ""
+
+#: inc/options.php:520
+msgid "Reviews Menu"
+msgstr ""
+
+#: inc/options.php:521 inc/options.php:602 inc/options.php:737
+#: inc/options.php:783 inc/options.php:828 inc/options.php:1827
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr ""
+
+#: inc/options.php:526
+msgid "Write a Review Menu"
+msgstr ""
+
+#: inc/options.php:533
+msgid "Sections Headings Text"
+msgstr ""
+
+#: inc/options.php:540
+msgid "Overview Section"
+msgstr ""
+
+#: inc/options.php:546
+msgid "Listings Section"
+msgstr ""
+
+#: inc/options.php:552
+msgid "Daily Views Section"
+msgstr ""
+
+#: inc/options.php:558
+msgid "Agents Section"
+msgstr ""
+
+#: inc/options.php:565
+msgid "Write a Review Section"
+msgstr ""
+
+#: inc/options.php:573
+msgid "Sidebar Generic Sections"
+msgstr ""
+
+#: inc/options.php:580
+msgid "Contact Info Widget"
+msgstr ""
+
+#: inc/options.php:581 inc/options.php:751 inc/options.php:797
+#: inc/options.php:842
+msgid "Contact Info"
+msgstr ""
+
+#: inc/options.php:587
+msgid "Featured Listings Widget"
+msgstr ""
+
+#: inc/options.php:588 inc/options.php:752 inc/options.php:798
+#: inc/options.php:843 inc/options.php:1943 inc/options.php:1971
+msgid "Featured Listings"
+msgstr ""
+
+#: inc/options.php:594
+msgid "Advertizment Widget"
+msgstr ""
+
+#: inc/options.php:595 inc/options.php:1989
+msgid "Advertizment"
+msgstr ""
+
+#: inc/options.php:601
+msgid "Reviews Widget"
+msgstr ""
+
+#: inc/options.php:608
+msgid "Most Viewed Widget"
+msgstr ""
+
+#: inc/options.php:609
+msgid "Most Viewed Listings"
+msgstr ""
+
+#: inc/options.php:617
+msgid "Sidebar Contact Form Settings"
+msgstr ""
+
+#: inc/options.php:623
+msgid "Contact Author Subject"
+msgstr ""
+
+#: inc/options.php:624
+msgid "You have a new message from profile"
+msgstr ""
+
+#: inc/options.php:629
+msgid "Contact Author Message"
+msgstr ""
+
+#: inc/options.php:635
+msgid ""
+"%site_name% , %display_name%, %sender_name%,  %sender_email% , "
+"%sender_message%, %profile_link% will be translated accordingly."
+msgstr ""
+
+#: inc/options.php:720 inc/options.php:728
+msgid "Agency Detail Page"
+msgstr ""
+
+#: inc/options.php:729 inc/options.php:776 inc/options.php:821
+msgid "Organize how you want the layout to appear on main site"
+msgstr ""
+
+#: inc/options.php:734 inc/options.php:781 inc/options.php:826
+msgid "All Properties"
+msgstr ""
+
+#: inc/options.php:735
+msgid "All Agents"
+msgstr ""
+
+#: inc/options.php:738 inc/options.php:784 inc/options.php:829
+msgid "Write A Reviews"
+msgstr ""
+
+#: inc/options.php:746
+msgid "Agency Detail Page Sidebar"
+msgstr ""
+
+#: inc/options.php:747 inc/options.php:793 inc/options.php:838
+#: inc/options.php:1936
+msgid "Organize how you want the layout to appear on sidebar"
+msgstr ""
+
+#: inc/options.php:753 inc/options.php:799 inc/options.php:844
+#: inc/options.php:1946
+msgid "Advertizment 300x250"
+msgstr ""
+
+#: inc/options.php:754 inc/options.php:800 inc/options.php:845
+#: inc/options.php:1826
+msgid "Reviews Score"
+msgstr ""
+
+#: inc/options.php:755 inc/options.php:801 inc/options.php:846
+#: inc/options.php:1977
+msgid "Contact Seller"
+msgstr ""
+
+#: inc/options.php:756 inc/options.php:802 inc/options.php:847
+msgid "Most Viewed"
+msgstr ""
+
+#: inc/options.php:757 inc/options.php:803 inc/options.php:848
+#: inc/options.php:1948
+msgid "Advertizment 300x600"
+msgstr ""
+
+#: inc/options.php:767 inc/options.php:775
+msgid "Agent Detail Page"
+msgstr ""
+
+#: inc/options.php:792
+msgid "Agent Detail Page Sidebar"
+msgstr ""
+
+#: inc/options.php:812
+msgid "Buyer Detail Page"
+msgstr ""
+
+#: inc/options.php:820
+msgid "Buyer/Individual Profile Detail Page"
+msgstr ""
+
+#: inc/options.php:837
+msgid "Buyer/Individual Profile Detail Page Sidebar"
+msgstr ""
+
+#: inc/options.php:859
+msgid "Reviews Settings"
+msgstr ""
+
+#: inc/options.php:867
+msgid "Allow Agencies & Agents?"
+msgstr ""
+
+#: inc/options.php:869
+msgid "Allow Agencies & Agents To Post Reviews."
+msgstr ""
+
+#: inc/options.php:874
+msgid "First Feild Text"
+msgstr ""
+
+#: inc/options.php:875
+msgid "Responsiveness"
+msgstr ""
+
+#: inc/options.php:880
+msgid "Second Field Text"
+msgstr ""
+
+#: inc/options.php:881
+msgid "Professionalism & Communication"
+msgstr ""
+
+#: inc/options.php:886
+msgid "Third Field Text"
+msgstr ""
+
+#: inc/options.php:887
+msgid "Market Expertise"
+msgstr ""
+
+#: inc/options.php:892
+msgid "Fourth Field Text"
+msgstr ""
+
+#: inc/options.php:893
+msgid "Level of Services"
+msgstr ""
+
+#: inc/options.php:898
+msgid "Recommend Field Text"
+msgstr ""
+
+#: inc/options.php:899
+msgid "Would you recommend this agent(agency) to a friend?"
+msgstr ""
+
+#: inc/options.php:904
+msgid "Did You Purchase Field Text"
+msgstr ""
+
+#: inc/options.php:905
+msgid "Did you purchase a property from this agent(agency)?"
+msgstr ""
+
+#: inc/options.php:910
+msgid "Title Field Text"
+msgstr ""
+
+#: inc/options.php:911 inc/options.php:4292
+msgid "Title"
+msgstr ""
+
+#: inc/options.php:916
+msgid "Review Field Text"
+msgstr ""
+
+#: inc/options.php:923
+msgid "Number of recommendations badge"
+msgstr ""
+
+#: inc/options.php:924
+msgid ""
+"Show recommended badge on author profile after X numbers of recommendations "
+"by users"
+msgstr ""
+
+#: inc/options.php:925 inc/options.php:1019 inc/options.php:1028
+#: inc/options.php:1037 inc/options.php:1047 inc/options.php:3696
+msgid "This must be numeric."
+msgstr ""
+
+#: inc/options.php:936
+msgid "Membership Settings"
+msgstr ""
+
+#: inc/options.php:938
+msgid "Here you can setup packages settings"
+msgstr ""
+
+#: inc/options.php:945
+msgid "Membership Type"
+msgstr ""
+
+#: inc/options.php:947
+msgid "Built In System"
+msgstr ""
+
+#: inc/options.php:948
+msgid "WooCommerce Packages"
+msgstr ""
+
+#: inc/options.php:956
+msgid "Select Packages Page"
+msgstr ""
+
+#: inc/options.php:963
+msgid "Package Type"
+msgstr ""
+
+#: inc/options.php:965
+msgid "Free"
+msgstr ""
+
+#: inc/options.php:966
+msgid "Per Listing"
+msgstr ""
+
+#: inc/options.php:974
+msgid "Packages Order Approved By"
+msgstr ""
+
+#: inc/options.php:976 inc/options.php:2875
+msgid "Auto Approve"
+msgstr ""
+
+#: inc/options.php:977 inc/options.php:2876
+msgid "Admin Approve"
+msgstr ""
+
+#: inc/options.php:987
+msgid "Property Submission Approval"
+msgstr ""
+
+#: inc/options.php:994
+msgid "Property Edit/Update Approval"
+msgstr ""
+
+#: inc/options.php:1002
+msgid "Submission Approval After Payment"
+msgstr ""
+
+#: inc/options.php:1009
+msgid "Currency For Paid Submission"
+msgstr ""
+
+#: inc/options.php:1018
+msgid "Price for Submission"
+msgstr ""
+
+#: inc/options.php:1027
+msgid "Featured Listing Price"
+msgstr ""
+
+#: inc/options.php:1036
+msgid "Featured Listing Expiry ( Days )"
+msgstr ""
+
+#: inc/options.php:1040 inc/options.php:1050
+msgid "Expiry in days, -1 means never expired."
+msgstr ""
+
+#: inc/options.php:1046
+msgid "Listing Expiry ( Days )"
+msgstr ""
+
+#: inc/options.php:1059
+msgid "Stripe Settings"
+msgstr ""
+
+#: inc/options.php:1067
+msgid "Enable Stripe?"
+msgstr ""
+
+#: inc/options.php:1069
+msgid "You can enable or disable Stripe payment buttons."
+msgstr ""
+
+#: inc/options.php:1075
+msgid "Stripe Publishable Key"
+msgstr ""
+
+#: inc/options.php:1081
+msgid "Stripe Secret Key"
+msgstr ""
+
+#: inc/options.php:1089
+msgid "Paypal Settings"
+msgstr ""
+
+#: inc/options.php:1098
+msgid "Enable Paypal?"
+msgstr ""
+
+#: inc/options.php:1100
+msgid "You can enable or disable Paypal payment buttons."
+msgstr ""
+
+#: inc/options.php:1105
+msgid "Paypal Mode"
+msgstr ""
+
+#: inc/options.php:1107
+msgid "Live"
+msgstr ""
+
+#: inc/options.php:1108
+msgid "Sandbox"
+msgstr ""
+
+#: inc/options.php:1115
+msgid "Paypal Client Id"
+msgstr ""
+
+#: inc/options.php:1116
+msgid "Enter you paypal client id here"
+msgstr ""
+
+#: inc/options.php:1122
+msgid "Paypal Secret"
+msgstr ""
+
+#: inc/options.php:1123
+msgid "Enter you paypal Secret id here"
+msgstr ""
+
+#: inc/options.php:1129
+msgid "Razorpay Settings"
+msgstr ""
+
+#: inc/options.php:1138
+msgid "Enable Razorpay?"
+msgstr ""
+
+#: inc/options.php:1140
+msgid "You can enable or disable Razorpay payment buttons."
+msgstr ""
+
+#: inc/options.php:1145
+msgid "Razorpay Key Id"
+msgstr ""
+
+#: inc/options.php:1146
+msgid "Enter you Razorpay Key ID here"
+msgstr ""
+
+#: inc/options.php:1152
+msgid "Razorpay Key Secret"
+msgstr ""
+
+#: inc/options.php:1153
+msgid "Enter you Razorpay Secret id here"
+msgstr ""
+
+#: inc/options.php:1159
+msgid "Order Page"
+msgstr ""
+
+#: inc/options.php:1168 inc/options.php:3186 inc/options.php:3257
+msgid "Main Title"
+msgstr ""
+
+#: inc/options.php:1169
+msgid "You listing have been posted!"
+msgstr ""
+
+#: inc/options.php:1174
+msgid "Editor Text"
+msgstr ""
+
+#: inc/options.php:1175
+msgid "Subtitle text would go here."
+msgstr ""
+
+#: inc/options.php:1176
+msgid ""
+"We just sent your receipt to your email address, and your items will be on "
+"their way shortly.."
+msgstr ""
+
+#: inc/options.php:1189
+msgid "Featured Listing Expiry"
+msgstr ""
+
+#: inc/options.php:1198
+msgid "Featured Ad Expiry Subject"
+msgstr ""
+
+#: inc/options.php:1199
+msgid "Featured Property Expiry Notification"
+msgstr ""
+
+#: inc/options.php:1204
+msgid "Featured Ad Expiry Message"
+msgstr ""
+
+#: inc/options.php:1210 inc/options.php:2019
+msgid ""
+"%site_name% , %display_name%, %sender_name%,  %sender_email% , "
+"%sender_message%,  %listing_title%,  %listing_link% will be translated "
+"accordingly."
+msgstr ""
+
+#: inc/options.php:1296
+msgid "Regular Listing Expiry"
+msgstr ""
+
+#: inc/options.php:1306
+msgid "Listing Expiry Type"
+msgstr ""
+
+#: inc/options.php:1308
+msgid "Trash"
+msgstr ""
+
+#: inc/options.php:1312
+msgid "Trash will delete the listing from the site permanently."
+msgstr ""
+
+#: inc/options.php:1318
+msgid "Regular Listing Expiry Subject"
+msgstr ""
+
+#: inc/options.php:1319
+msgid "Regular Listing Expiry Notification"
+msgstr ""
+
+#: inc/options.php:1324
+msgid "Regular Listing Expiry Message"
+msgstr ""
+
+#: inc/options.php:1330
+msgid "%site_name% , %display_name%, will be translated accordingly."
+msgstr ""
+
+#: inc/options.php:1410
+msgid "Expiry Cron Jobs"
+msgstr ""
+
+#: inc/options.php:1419
+msgid "Enable Regular Listings Cron Jobs"
+msgstr ""
+
+#: inc/options.php:1420 inc/options.php:1437
+msgid ""
+"Note : This functionality works hiddenly check all the listings and trash/"
+"expires old listings. This option takes a lot of loads so anyone who wishes "
+"to choose this option must have a good server."
+msgstr ""
+
+#: inc/options.php:1427 inc/options.php:1445
+msgid "Cron Interval"
+msgstr ""
+
+#: inc/options.php:1428 inc/options.php:1446
+msgid "Cron job run after this Interval"
+msgstr ""
+
+#: inc/options.php:1436
+msgid "Enable Featured Listings Cron Jobs"
+msgstr ""
+
+#: inc/options.php:1439
+msgid "Check featured listing expiry automatically"
+msgstr ""
+
+#: inc/options.php:1457
+msgid "Admin Options"
+msgstr ""
+
+#: inc/options.php:1465
+msgid "Assign Free Package On Registration"
+msgstr ""
+
+#: inc/options.php:1471
+msgid "Package Alert"
+msgstr ""
+
+#: inc/options.php:1473
+msgid ""
+"This option will only work when ( WooCommerce Plugin ) is activeted & "
+"( Foodzone Packages ) are created."
+msgstr ""
+
+#: inc/options.php:1494 inc/theme_utilities.php:1277
+msgid "Select Package"
+msgstr ""
+
+#: inc/options.php:1501
+msgid "Show All Telephone Numbers"
+msgstr ""
+
+#: inc/options.php:1505
+msgid "Show all or selective country mobile number on listing contact forms."
+msgstr ""
+
+#: inc/options.php:1510 inc/options.php:2165
+msgid "Chart Type"
+msgstr ""
+
+#: inc/options.php:1772
+msgid "Listing Detail"
+msgstr ""
+
+#: inc/options.php:1779
+msgid "Detail Page Settings"
+msgstr ""
+
+#: inc/options.php:1787
+msgid "Listing Detial Page Style"
+msgstr ""
+
+#: inc/options.php:1790
+msgid "Elegent"
+msgstr ""
+
+#: inc/options.php:1804
+msgid "Page Layout Manager"
+msgstr ""
+
+#: inc/options.php:1805
+msgid "Organize how you want the layout to appear on the listing page"
+msgstr ""
+
+#: inc/options.php:1810
+msgid "Slider"
+msgstr ""
+
+#: inc/options.php:1811
+msgid "Ad Slot 1"
+msgstr ""
+
+#: inc/options.php:1812 inc/options.php:1843 inc/options.php:4481
+msgid "Description"
+msgstr ""
+
+#: inc/options.php:1813 inc/options.php:1849
+msgid "Details"
+msgstr ""
+
+#: inc/options.php:1814 inc/options.php:1855
+msgid "Additional Details"
+msgstr ""
+
+#: inc/options.php:1816 inc/options.php:1867
+msgid "Features"
+msgstr ""
+
+#: inc/options.php:1819
+msgid "Nearby"
+msgstr ""
+
+#: inc/options.php:1820
+msgid "WalkScore"
+msgstr ""
+
+#: inc/options.php:1821 inc/options.php:1897 inc/options.php:4267
+msgid "360° Virtual Tour"
+msgstr ""
+
+#: inc/options.php:1822
+msgid "Page Views"
+msgstr ""
+
+#: inc/options.php:1823 inc/options.php:1909
+msgid "Schedule a Tour"
+msgstr ""
+
+#: inc/options.php:1824 inc/options.php:1915 inc/options.php:2425
+msgid "Similar Listings"
+msgstr ""
+
+#: inc/options.php:1825
+msgid "Ad Slot 2"
+msgstr ""
+
+#: inc/options.php:1828
+msgid "Review Form"
+msgstr ""
+
+#: inc/options.php:1836
+msgid "Listing Sections Text"
+msgstr ""
+
+#: inc/options.php:1842
+msgid "Description Section"
+msgstr ""
+
+#: inc/options.php:1848
+msgid "Details Section"
+msgstr ""
+
+#: inc/options.php:1854
+msgid "Additional Details Section"
+msgstr ""
+
+#: inc/options.php:1860
+msgid "Address Section"
+msgstr ""
+
+#: inc/options.php:1866
+msgid "Features Section"
+msgstr ""
+
+#: inc/options.php:1872
+msgid "Floor Plans Section"
+msgstr ""
+
+#: inc/options.php:1878
+msgid "Attachments Section"
+msgstr ""
+
+#: inc/options.php:1884
+msgid "Nearby Section"
+msgstr ""
+
+#: inc/options.php:1885
+msgid "What's NearBy"
+msgstr ""
+
+#: inc/options.php:1890
+msgid "WalkScore Section"
+msgstr ""
+
+#: inc/options.php:1891 inc/options.php:2290
+msgid "Walkscore"
+msgstr ""
+
+#: inc/options.php:1896
+msgid "360° Virtual Tour Section"
+msgstr ""
+
+#: inc/options.php:1902
+msgid "Page Views Section"
+msgstr ""
+
+#: inc/options.php:1903
+msgid "Statistics"
+msgstr ""
+
+#: inc/options.php:1908
+msgid "Schedule a Tour Section"
+msgstr ""
+
+#: inc/options.php:1914
+msgid "Similar Listings Section"
+msgstr ""
+
+#: inc/options.php:1920
+msgid "Review Forms Section"
+msgstr ""
+
+#: inc/options.php:1927 inc/options.php:1935
+msgid "Listing Page Sidebar"
+msgstr ""
+
+#: inc/options.php:1940
+msgid "Profile Card"
+msgstr ""
+
+#: inc/options.php:1941 inc/options.php:1959
+msgid "Listing Address"
+msgstr ""
+
+#: inc/options.php:1942
+msgid "Listing Stats"
+msgstr ""
+
+#: inc/options.php:1944
+msgid "Contact Form"
+msgstr ""
+
+#: inc/options.php:1945
+msgid "Listing Nearby"
+msgstr ""
+
+#: inc/options.php:1947 inc/options.php:1995
+msgid "Recently Listed"
+msgstr ""
+
+#: inc/options.php:1949 inc/options.php:2001 inc/options.php:2444
+msgid "Mortgage Calculator"
+msgstr ""
+
+#: inc/options.php:1958
+msgid "Listing Address Section"
+msgstr ""
+
+#: inc/options.php:1964
+msgid "Listing Stats Section"
+msgstr ""
+
+#: inc/options.php:1965
+msgid "Statics Info"
+msgstr ""
+
+#: inc/options.php:1970
+msgid "Featured Listings Section"
+msgstr ""
+
+#: inc/options.php:1976
+msgid "Contact Seller Section"
+msgstr ""
+
+#: inc/options.php:1982
+msgid "Near By Listings Section"
+msgstr ""
+
+#: inc/options.php:1983
+msgid "Near By Listings"
+msgstr ""
+
+#: inc/options.php:1988
+msgid "Advertizment Section"
+msgstr ""
+
+#: inc/options.php:1994
+msgid "Recently Listed Section"
+msgstr ""
+
+#: inc/options.php:2000
+msgid "Mortgage Calculator Section"
+msgstr ""
+
+#: inc/options.php:2007
+msgid "Contact Listing Author Subject"
+msgstr ""
+
+#: inc/options.php:2008
+msgid "You have a new message on  your listing"
+msgstr ""
+
+#: inc/options.php:2013
+msgid "Contact Listing Author Message"
+msgstr ""
+
+#: inc/options.php:2114
+msgid "Location Level Section"
+msgstr ""
+
+#: inc/options.php:2115
+msgid "Location level text eg country,state town etc."
+msgstr ""
+
+#: inc/options.php:2122
+msgid "Location Level 1"
+msgstr ""
+
+#: inc/options.php:2123 inc/options.php:4373
+msgid "Country"
+msgstr ""
+
+#: inc/options.php:2129
+msgid "Location Level 2"
+msgstr ""
+
+#: inc/options.php:2130
+msgid "State"
+msgstr ""
+
+#: inc/options.php:2135
+msgid "Location Level 3"
+msgstr ""
+
+#: inc/options.php:2136 woocommerce/cart/shipping-calculator.php:74
+msgid "City"
+msgstr ""
+
+#: inc/options.php:2141
+msgid "Location Level 4"
+msgstr ""
+
+#: inc/options.php:2142
+msgid "Town "
+msgstr ""
+
+#: inc/options.php:2150
+msgid "Statistics Graph"
+msgstr ""
+
+#: inc/options.php:2158
+msgid "Number Of Days"
+msgstr ""
+
+#: inc/options.php:2159
+msgid "How many days will shown on the chart!: ."
+msgstr ""
+
+#: inc/options.php:2167
+msgid "Bar Chart"
+msgstr ""
+
+#: inc/options.php:2168
+msgid "Line Chart"
+msgstr ""
+
+#: inc/options.php:2176
+msgid "Background Color For Chart"
+msgstr ""
+
+#: inc/options.php:2182
+msgid "Defualt color: rgba(0, 174, 239, 0.2)"
+msgstr ""
+
+#: inc/options.php:2188
+msgid "Border Color"
+msgstr ""
+
+#: inc/options.php:2189
+msgid "Graph Border Color (default: #00aeef)."
+msgstr ""
+
+#: inc/options.php:2198
+msgid "Yelp Nearby Places"
+msgstr ""
+
+#: inc/options.php:2206
+msgid "Yelp API Key"
+msgstr ""
+
+#: inc/options.php:2207 inc/options.php:2213
+msgid ""
+"How to Generate API Key! <a target=\"_blank\" href=\"//www.yelp.com/"
+"developers/v3/manage_app\">https://www.yelp.com/developers/v3/manage_app</a>"
+msgstr ""
+
+#: inc/options.php:2212
+msgid "Yelp API Key Secret"
+msgstr ""
+
+#: inc/options.php:2219
+msgid "Select Yelp Terms"
+msgstr ""
+
+#: inc/options.php:2221 inc/theme_functions.php:422
+msgid "Active Life"
+msgstr ""
+
+#: inc/options.php:2222 inc/theme_functions.php:423
+msgid "Arts & Entertainment"
+msgstr ""
+
+#: inc/options.php:2223 inc/theme_functions.php:424
+msgid "Automotive"
+msgstr ""
+
+#: inc/options.php:2224 inc/theme_functions.php:425
+msgid "Beauty & Spas"
+msgstr ""
+
+#: inc/options.php:2225 inc/theme_functions.php:426
+msgid "Education"
+msgstr ""
+
+#: inc/options.php:2226 inc/theme_functions.php:427
+msgid "Event Planning & Services"
+msgstr ""
+
+#: inc/options.php:2227 inc/theme_functions.php:428
+msgid "Financial Services"
+msgstr ""
+
+#: inc/options.php:2228 inc/theme_functions.php:429
+msgid "Food"
+msgstr ""
+
+#: inc/options.php:2229 inc/theme_functions.php:430
+msgid "Health & Medical"
+msgstr ""
+
+#: inc/options.php:2230 inc/theme_functions.php:431
+msgid "Home Services "
+msgstr ""
+
+#: inc/options.php:2231 inc/theme_functions.php:432
+msgid "Hotels & Travel"
+msgstr ""
+
+#: inc/options.php:2232 inc/theme_functions.php:433
+msgid "Local Flavor"
+msgstr ""
+
+#: inc/options.php:2233 inc/theme_functions.php:434
+msgid "Local Services"
+msgstr ""
+
+#: inc/options.php:2234 inc/theme_functions.php:435
+msgid "Mass Media"
+msgstr ""
+
+#: inc/options.php:2235 inc/theme_functions.php:436
+msgid "Nightlife"
+msgstr ""
+
+#: inc/options.php:2236 inc/theme_functions.php:437
+msgid "Pets"
+msgstr ""
+
+#: inc/options.php:2237 inc/theme_functions.php:438
+msgid "Professional Services"
+msgstr ""
+
+#: inc/options.php:2238 inc/theme_functions.php:439
+msgid "Public Services & Government"
+msgstr ""
+
+#: inc/options.php:2239 inc/theme_functions.php:440
+msgid "Real Estate"
+msgstr ""
+
+#: inc/options.php:2240 inc/theme_functions.php:441
+msgid "Religious Organizations"
+msgstr ""
+
+#: inc/options.php:2241 inc/theme_functions.php:442
+msgid "Restaurants"
+msgstr ""
+
+#: inc/options.php:2242 inc/theme_functions.php:443
+msgid "Shopping"
+msgstr ""
+
+#: inc/options.php:2249
+msgid "Yelp Result Limit"
+msgstr ""
+
+#: inc/options.php:2256
+msgid "Yelp Distance Unit"
+msgstr ""
+
+#: inc/options.php:2258 inc/theme_functions.php:488
+#: template-parts/listing-detial/sidebar/nearby.php:8
+msgid "Miles"
+msgstr ""
+
+#: inc/options.php:2259 inc/theme_functions.php:489
+msgid "Feet"
+msgstr ""
+
+#: inc/options.php:2260 inc/theme_functions.php:490
+msgid "Yards"
+msgstr ""
+
+#: inc/options.php:2261 inc/theme_functions.php:491
+#: template-parts/listing-detial/sidebar/nearby.php:9
+msgid "Kilometers"
+msgstr ""
+
+#: inc/options.php:2270
+msgid "Yelp Fusion API Daily Access Limit!"
+msgstr ""
+
+#: inc/options.php:2272
+msgid ""
+"Yelp has daily 5,000 API calls per 24 hours limit. You can cache yelp data "
+"by selecting number of hours per call. It will improve your web speed and "
+"response. "
+msgstr ""
+
+#: inc/options.php:2277
+msgid "Yelp Data Cache Hours"
+msgstr ""
+
+#: inc/options.php:2278
+msgid "Data will be cache for."
+msgstr ""
+
+#: inc/options.php:2279
+msgid ""
+"It means on a single API call data will be save for selected number of hours"
+msgstr ""
+
+#: inc/options.php:2298
+msgid "Yelp Walkscore API Key"
+msgstr ""
+
+#: inc/options.php:2299
+msgid ""
+"Walk Score is supported in the United States, Canada, Australia, and New "
+"Zealand."
+msgstr ""
+
+#: inc/options.php:2300
+msgid ""
+"How to Generate API Key! <a target=\"_blank\" href=\"https://www.walkscore."
+"com/professional/api.php\">https://www.walkscore.com/professional/api.php</a>"
+msgstr ""
+
+#: inc/options.php:2305
+msgid "Schedule A Tour"
+msgstr ""
+
+#: inc/options.php:2314
+msgid "Schedule a Tour Subject"
+msgstr ""
+
+#: inc/options.php:2315
+msgid "Schedule a meeting?"
+msgstr ""
+
+#: inc/options.php:2320
+msgid "Schedule a Tour Message"
+msgstr ""
+
+#: inc/options.php:2326
+msgid ""
+"%site_name% , %display_name%, %meeting_date%, %sender_name%,  %sender_email"
+"% ,  %sender_contactno%,  %sender_message%,  %listing_title%,  %listing_link"
+"% will be translated accordingly."
+msgstr ""
+
+#: inc/options.php:2433
+msgid "Similar Listing Limit"
+msgstr ""
+
+#: inc/options.php:2434
+msgid "No of listings shown."
+msgstr ""
+
+#: inc/options.php:2452
+msgid "Default Currency Symbol"
+msgstr ""
+
+#: inc/options.php:2459
+msgid "Initial Value Field"
+msgstr ""
+
+#: inc/options.php:2460
+msgid "Initial Value"
+msgstr ""
+
+#: inc/options.php:2466
+msgid "Initial Value Field Hint"
+msgstr ""
+
+#: inc/options.php:2467
+msgid "Estimated property value or loan amount"
+msgstr ""
+
+#: inc/options.php:2473
+msgid "Down Payment Field"
+msgstr ""
+
+#: inc/options.php:2474
+msgid "Down Payment"
+msgstr ""
+
+#: inc/options.php:2480
+msgid "Down Payment Field Hint"
+msgstr ""
+
+#: inc/options.php:2481
+msgid "Before the first payment period"
+msgstr ""
+
+#: inc/options.php:2487
+msgid "Interest Rate Field"
+msgstr ""
+
+#: inc/options.php:2488
+msgid "Interest Rate"
+msgstr ""
+
+#: inc/options.php:2494
+msgid "Interest Rate Field Hint"
+msgstr ""
+
+#: inc/options.php:2495
+msgid "The average expected interest in % percentage"
+msgstr ""
+
+#: inc/options.php:2501
+msgid " Mortgage Term Field"
+msgstr ""
+
+#: inc/options.php:2502
+msgid "Loan or Mortgage term"
+msgstr ""
+
+#: inc/options.php:2508
+msgid "Mortgage Term Field Hint"
+msgstr ""
+
+#: inc/options.php:2509
+msgid "Repayment payment in years"
+msgstr ""
+
+#: inc/options.php:2516
+msgid "Generate Report"
+msgstr ""
+
+#: inc/options.php:2524
+msgid "Search Pages"
+msgstr ""
+
+#: inc/options.php:2533
+msgid "Agency Search Page"
+msgstr ""
+
+#: inc/options.php:2541
+msgid "Agency Layout Styles"
+msgstr ""
+
+#: inc/options.php:2544 inc/options.php:2592
+msgid "Grid 1"
+msgstr ""
+
+#: inc/options.php:2548 inc/options.php:2596
+msgid "Grid 2"
+msgstr ""
+
+#: inc/options.php:2552
+msgid "Grid 3"
+msgstr ""
+
+#: inc/options.php:2556
+msgid "Grid 4"
+msgstr ""
+
+#: inc/options.php:2560 inc/options.php:2601
+msgid "List 1"
+msgstr ""
+
+#: inc/options.php:2564
+msgid "List 2"
+msgstr ""
+
+#: inc/options.php:2568
+msgid "List 3"
+msgstr ""
+
+#: inc/options.php:2581
+msgid "Agents Search Page"
+msgstr ""
+
+#: inc/options.php:2589
+msgid "Agents Layout Styles"
+msgstr ""
+
+#: inc/options.php:2612
+msgid "Property Search Page"
+msgstr ""
+
+#: inc/options.php:2621
+msgid "Search Page Layout"
+msgstr ""
+
+#: inc/options.php:2622 inc/options.php:2643
+msgid "Select search page layout type."
+msgstr ""
+
+#: inc/options.php:2625
+msgid "With Sidebar"
+msgstr ""
+
+#: inc/options.php:2629
+msgid "With Map"
+msgstr ""
+
+#: inc/options.php:2633
+msgid "Modern"
+msgstr ""
+
+#: inc/options.php:2642
+msgid "Select Layout Type"
+msgstr ""
+
+#: inc/options.php:2646
+msgid "Grid Style 1"
+msgstr ""
+
+#: inc/options.php:2650
+msgid "Grid Style 2"
+msgstr ""
+
+#: inc/options.php:2654
+msgid "Grid Style 3"
+msgstr ""
+
+#: inc/options.php:2658
+msgid "Grid Style 4"
+msgstr ""
+
+#: inc/options.php:2662
+msgid "Grid Style 5"
+msgstr ""
+
+#: inc/options.php:2666
+msgid "Grid Style 6"
+msgstr ""
+
+#: inc/options.php:2670
+msgid "Grid Style 7"
+msgstr ""
+
+#: inc/options.php:2674
+msgid "List Style 1"
+msgstr ""
+
+#: inc/options.php:2678
+msgid "List Style 2"
+msgstr ""
+
+#: inc/options.php:2682
+msgid "List Style 3"
+msgstr ""
+
+#: inc/options.php:2686
+msgid "List Style 4"
+msgstr ""
+
+#: inc/options.php:2690
+msgid "List Style 5"
+msgstr ""
+
+#: inc/options.php:2701
+msgid "Search By Near Me"
+msgstr ""
+
+#: inc/options.php:2703 inc/options.php:2711 inc/options.php:2719
+#: inc/options.php:2727 inc/options.php:2735 inc/options.php:2743
+#: inc/options.php:2751 inc/options.php:2759 inc/options.php:2767
+#: inc/options.php:2775 inc/options.php:2783 inc/options.php:2791
+#: inc/options.php:2799 template-parts/dashboard/my-properties/create.php:388
+#: template-parts/dashboard/my-properties/create.php:585
+msgid "Enabled"
+msgstr ""
+
+#: inc/options.php:2704 inc/options.php:2712 inc/options.php:2720
+#: inc/options.php:2728 inc/options.php:2736 inc/options.php:2744
+#: inc/options.php:2752 inc/options.php:2760 inc/options.php:2768
+#: inc/options.php:2776 inc/options.php:2784 inc/options.php:2792
+#: inc/options.php:2800 template-parts/dashboard/my-properties/create.php:387
+#: template-parts/dashboard/my-properties/create.php:584
+msgid "Disabled"
+msgstr ""
+
+#: inc/options.php:2709
+msgid "Search By Keyword"
+msgstr ""
+
+#: inc/options.php:2717
+#: template-parts/search/agent-search/search-with-sidebar.php:54
+msgid "Search By Type"
+msgstr ""
+
+#: inc/options.php:2725
+msgid "Search By Offer Type"
+msgstr ""
+
+#: inc/options.php:2733
+msgid "Search By Status"
+msgstr ""
+
+#: inc/options.php:2741
+#: template-parts/search/agency-search/search-with-sidebar.php:49
+#: template-parts/search/agent-search/search-with-sidebar.php:59
+msgid "Search By Location"
+msgstr ""
+
+#: inc/options.php:2749
+msgid "Search By ID"
+msgstr ""
+
+#: inc/options.php:2757
+msgid "Search By Currency Type"
+msgstr ""
+
+#: inc/options.php:2765
+msgid "Search By Price"
+msgstr ""
+
+#: inc/options.php:2773
+msgid "Search By Area"
+msgstr ""
+
+#: inc/options.php:2781
+msgid "Search By Bedrooms"
+msgstr ""
+
+#: inc/options.php:2789
+msgid "Search By Bathrooms"
+msgstr ""
+
+#: inc/options.php:2797
+msgid "Search By Features "
+msgstr ""
+
+#: inc/options.php:2808 inc/options.php:2816 inc/options.php:2819
+#: inc/options.php:2824 inc/options.php:2827 inc/options.php:2835
+#: inc/options.php:2843
+msgid "Advertisement"
+msgstr ""
+
+#: inc/options.php:2817 inc/options.php:2825
+msgid "720x90 or 468x60"
+msgstr ""
+
+#: inc/options.php:2818
+msgid "Advertisement slot 1"
+msgstr ""
+
+#: inc/options.php:2826
+msgid "Advertisement slot 2"
+msgstr ""
+
+#: inc/options.php:2832
+msgid "Banner 300x250"
+msgstr ""
+
+#: inc/options.php:2833
+msgid "300x250"
+msgstr ""
+
+#: inc/options.php:2834
+msgid "Advertisement Banner 300x250"
+msgstr ""
+
+#: inc/options.php:2840
+msgid "Banner 300x600"
+msgstr ""
+
+#: inc/options.php:2841
+msgid "300x600"
+msgstr ""
+
+#: inc/options.php:2842
+msgid "Advertisement Banner 300x600"
+msgstr ""
+
+#: inc/options.php:2851
+msgid "Listing Reviews"
+msgstr ""
+
+#: inc/options.php:2859
+msgid "Send Email On Review"
+msgstr ""
+
+#: inc/options.php:2860
+msgid "Send email when there is a new comment"
+msgstr ""
+
+#: inc/options.php:2866
+msgid "Send Email On Review Reply"
+msgstr ""
+
+#: inc/options.php:2867
+msgid "Send email on reply"
+msgstr ""
+
+#: inc/options.php:2873
+msgid "Reviews Approved By"
+msgstr ""
+
+#: inc/options.php:2884
+msgid "Reviews Limit On Listing Page"
+msgstr ""
+
+#: inc/options.php:2896
+msgid "Reviews Email Templates"
+msgstr ""
+
+#: inc/options.php:2905
+msgid "Review Notification Subject"
+msgstr ""
+
+#: inc/options.php:2906
+msgid "New Review On Listing"
+msgstr ""
+
+#: inc/options.php:2911
+msgid "Review Notification Message"
+msgstr ""
+
+#: inc/options.php:2917
+msgid ""
+"%site_name% , %display_name%, %sender_name%, %rating_stars%,  %sender_review"
+"%,  %listing_title%,  %listing_link% will be translated accordingly."
+msgstr ""
+
+#: inc/options.php:3015
+msgid "Price & Currency"
+msgstr ""
+
+#: inc/options.php:3023
+msgid "Currency Mode"
+msgstr ""
+
+#: inc/options.php:3024
+msgid "Select currency type."
+msgstr ""
+
+#: inc/options.php:3035
+msgid "Currency Symbol "
+msgstr ""
+
+#: inc/options.php:3036
+msgid "Use currency symbol only eg ($)"
+msgstr ""
+
+#: inc/options.php:3046
+msgid "Default Selected Currency"
+msgstr ""
+
+#: inc/options.php:3047
+msgid "While posting ad in multi-currency"
+msgstr ""
+
+#: inc/options.php:3054
+msgid "Where to Show the currency?"
+msgstr ""
+
+#: inc/options.php:3056
+msgid "Before"
+msgstr ""
+
+#: inc/options.php:3057
+msgid "After"
+msgstr ""
+
+#: inc/options.php:3064
+msgid "Number of decimal points?"
+msgstr ""
+
+#: inc/options.php:3083
+msgid "Decimals Separator"
+msgstr ""
+
+#: inc/options.php:3084
+msgid "Provide the decimal point separator eg: ."
+msgstr ""
+
+#: inc/options.php:3090
+msgid "Thousands Separator"
+msgstr ""
+
+#: inc/options.php:3091
+msgid "Provide the Thousands point separator eg: ,"
+msgstr ""
+
+#: inc/options.php:3097
+msgid "Property Ref. No"
+msgstr ""
+
+#: inc/options.php:3099
+msgid ""
+"Please use {ID} in your pattern as it will be replaced by the Property ID."
+msgstr ""
+
+#: inc/options.php:3106
+msgid "Authorization"
+msgstr ""
+
+#: inc/options.php:3108
+msgid "Here you can setup authorization page settings"
+msgstr ""
+
+#: inc/options.php:3115
+msgid "Enable Frontend Registration"
+msgstr ""
+
+#: inc/options.php:3121
+msgid "Enable Header & Footer"
+msgstr ""
+
+#: inc/options.php:3123
+msgid "You can enable or disable header & footer on sign up/sign in page."
+msgstr ""
+
+#: inc/options.php:3129
+msgid "Term of Services Page Link"
+msgstr ""
+
+#: inc/options.php:3138
+msgid "Author Dashboard Page"
+msgstr ""
+
+#: inc/options.php:3139
+msgid "Redirect user after successful login & registration."
+msgstr ""
+
+#: inc/options.php:3145
+msgid "Defualt Image"
+msgstr ""
+
+#: inc/options.php:3155
+msgid "Sign Up Page"
+msgstr ""
+
+#: inc/options.php:3165 inc/options.php:3236
+msgid "Background Image Section"
+msgstr ""
+
+#: inc/options.php:3166 inc/options.php:3237
+msgid "Select background image & text."
+msgstr ""
+
+#: inc/options.php:3173 inc/options.php:3244
+msgid "Background Image"
+msgstr ""
+
+#: inc/options.php:3180 inc/options.php:3251
+msgid "Tagline Title"
+msgstr ""
+
+#: inc/options.php:3181 inc/options.php:3252
+msgid "Pakistan’s smarter"
+msgstr ""
+
+#: inc/options.php:3187 inc/options.php:3258
+msgid "Largest Property Buying & Selling Hub"
+msgstr ""
+
+#: inc/options.php:3198 inc/options.php:3269
+msgid "Form Section"
+msgstr ""
+
+#: inc/options.php:3205 inc/options.php:3276
+msgid "Form Text"
+msgstr ""
+
+#: inc/options.php:3206
+msgid "Register With Us"
+msgstr ""
+
+#: inc/options.php:3211 inc/options.php:3282
+msgid "Slogan Text"
+msgstr ""
+
+#: inc/options.php:3212 inc/options.php:3283
+msgid ""
+"Sign up to use your dashboard its fast and free. Showcase your brand, "
+"enhance your listings and much more."
+msgstr ""
+
+#: inc/options.php:3223
+msgid "Sign Ip Page"
+msgstr ""
+
+#: inc/options.php:3277
+msgid "Sign In & Access Your Account"
+msgstr ""
+
+#: inc/options.php:3295
+msgid "Social Authentication"
+msgstr ""
+
+#: inc/options.php:3305
+msgid "Enable Social Login & Registration"
+msgstr ""
+
+#: inc/options.php:3311
+msgid "Facebook Client ID"
+msgstr ""
+
+#: inc/options.php:3312 inc/options.php:3319
+#, php-format
+msgid "<a href=\"%s\">How to Make</a>"
+msgstr ""
+
+#: inc/options.php:3318
+msgid "Google Client ID"
+msgstr ""
+
+#: inc/options.php:3325
+msgid "Redirect URI"
+msgstr ""
+
+#: inc/options.php:3326
+msgid "Must be same URI while creating apps, it will be your web url."
+msgstr ""
+
+#: inc/options.php:3335
+msgid "Email Templates"
+msgstr ""
+
+#: inc/options.php:3345
+msgid "Send Email On Registration"
+msgstr ""
+
+#: inc/options.php:3347 inc/options.php:3354
+msgid "So you want to send email on the time of registration."
+msgstr ""
+
+#: inc/options.php:3352
+msgid "Send Email To Admin On Registration"
+msgstr ""
+
+#: inc/options.php:3360
+msgid "New User Email Template Subject For Admin"
+msgstr ""
+
+#: inc/options.php:3361
+msgid "New User Registration"
+msgstr ""
+
+#: inc/options.php:3367
+msgid "New User Email Template For Admin"
+msgstr ""
+
+#: inc/options.php:3374
+msgid "%site_name% , %display_name%, %email% will be translated accordingly."
+msgstr ""
+
+#: inc/options.php:3451
+msgid "Send Welocme Email To User On Registration"
+msgstr ""
+
+#: inc/options.php:3453
+msgid "So you want to send welcome eamil on the time of registration to user."
+msgstr ""
+
+#: inc/options.php:3460
+msgid "Welcome Email Template Subject For Users"
+msgstr ""
+
+#: inc/options.php:3461
+msgid "We're Happy To Have You With Us"
+msgstr ""
+
+#: inc/options.php:3467
+msgid "Welcome Email Template For Users"
+msgstr ""
+
+#: inc/options.php:3474
+msgid ""
+"%site_name% , %display_name%, %email%, %password% will be translated "
+"accordingly."
+msgstr ""
+
+#: inc/options.php:3559
+msgid "Reset Password Template Subject"
+msgstr ""
+
+#: inc/options.php:3560
+msgid "Forgot Your Password"
+msgstr ""
+
+#: inc/options.php:3565
+msgid "Reset Password Template For Users"
+msgstr ""
+
+#: inc/options.php:3571
+msgid ""
+"%site_name% , %display_name%, %reset_link% will be translated accordingly."
+msgstr ""
+
+#: inc/options.php:3678
+msgid "Submit Property"
+msgstr ""
+
+#: inc/options.php:3695
+msgid "Title Limit During Submission"
+msgstr ""
+
+#: inc/options.php:3697
+msgid "Total number of characters"
+msgstr ""
+
+#: inc/options.php:3705
+msgid "Bad Words Filter"
+msgstr ""
+
+#: inc/options.php:3706
+msgid "comma separated"
+msgstr ""
+
+#: inc/options.php:3707
+msgid "word1,word2"
+msgstr ""
+
+#: inc/options.php:3708
+msgid "This words will be removed from AD Title and Description"
+msgstr ""
+
+#: inc/options.php:3714
+msgid "Bad Words Replace Word"
+msgstr ""
+
+#: inc/options.php:3715
+msgid ""
+"This words will be replace with above bad words list from AD Title and "
+"Description"
+msgstr ""
+
+#: inc/options.php:3725
+msgid "Show & Hide Fields"
+msgstr ""
+
+#: inc/options.php:3735
+msgid "Multi Checkbox Option"
+msgstr ""
+
+#: inc/options.php:3736
+msgid "No validation can be done on this field type"
+msgstr ""
+
+#: inc/options.php:3737 inc/options.php:5167
+msgid "This is the description field, again good for additional info."
+msgstr ""
+
+#: inc/options.php:3803
+msgid "Required Form Fields"
+msgstr ""
+
+#: inc/options.php:3814 inc/options.php:3815
+msgid "Select the Mandatory Fields for property submission."
+msgstr ""
+
+#: inc/options.php:3882
+msgid "Form Fields Text"
+msgstr ""
+
+#: inc/options.php:3896
+msgid "Property Field Title"
+msgstr ""
+
+#: inc/options.php:3897
+msgid "Property Title"
+msgstr ""
+
+#: inc/options.php:3902
+msgid "Property Field Placeholder"
+msgstr ""
+
+#: inc/options.php:3903
+msgid "Detached house for sale"
+msgstr ""
+
+#: inc/options.php:3908
+msgid "Property Description Box"
+msgstr ""
+
+#: inc/options.php:3909
+msgid "Property Description"
+msgstr ""
+
+#: inc/options.php:3922 inc/options.php:4657
+msgid "Property Type Field"
+msgstr ""
+
+#: inc/options.php:3936 inc/options.php:3960 inc/options.php:3983
+#: inc/options.php:4006 inc/options.php:4330
+msgid "Placeholder"
+msgstr ""
+
+#: inc/options.php:3937
+msgid "Select Category"
+msgstr ""
+
+#: inc/options.php:3948 inc/options.php:4663
+msgid "Offer Type Field"
+msgstr ""
+
+#: inc/options.php:3971
+msgid "Label Type Field"
+msgstr ""
+
+#: inc/options.php:3984
+msgid "Select Property Status"
+msgstr ""
+
+#: inc/options.php:3994 inc/options.php:4675
+msgid "Currency Type Field"
+msgstr ""
+
+#: inc/options.php:4007
+msgid "Select Currency"
+msgstr ""
+
+#: inc/options.php:4019
+msgid "Property Price Section"
+msgstr ""
+
+#: inc/options.php:4027
+msgid "Sale or Rent Price"
+msgstr ""
+
+#: inc/options.php:4032
+msgid "Hint Text"
+msgstr ""
+
+#: inc/options.php:4033
+msgid "(Eg: 75000)"
+msgstr ""
+
+#: inc/options.php:4038
+msgid "Second Price Field Label"
+msgstr ""
+
+#: inc/options.php:4039
+msgid "Second Price"
+msgstr ""
+
+#: inc/options.php:4044
+msgid "Second Price Field Hint"
+msgstr ""
+
+#: inc/options.php:4045
+msgid "(Optional)"
+msgstr ""
+
+#: inc/options.php:4056
+msgid "After Price Field Hint"
+msgstr ""
+
+#: inc/options.php:4057
+msgid "(Eg: Per Month)"
+msgstr ""
+
+#: inc/options.php:4063
+msgid "Price Prefix"
+msgstr ""
+
+#: inc/options.php:4068
+msgid "Before Price Field Hint"
+msgstr ""
+
+#: inc/options.php:4069
+msgid "(Eg: Start From)"
+msgstr ""
+
+#: inc/options.php:4079
+msgid "Area Size Field Section"
+msgstr ""
+
+#: inc/options.php:4092
+msgid "Area Size Field Hint"
+msgstr ""
+
+#: inc/options.php:4093 inc/options.php:4152
+msgid "( Only digits )"
+msgstr ""
+
+#: inc/options.php:4099 inc/options.php:4158
+msgid "Placeholder Field"
+msgstr ""
+
+#: inc/options.php:4100
+msgid "Eg 2500"
+msgstr ""
+
+#: inc/options.php:4113
+msgid "Area Prefix Field Section"
+msgstr ""
+
+#: inc/options.php:4120
+msgid "Area Prefix"
+msgstr ""
+
+#: inc/options.php:4121
+msgid "Area Size Prefix"
+msgstr ""
+
+#: inc/options.php:4126
+msgid "Area Prefix Field Hint"
+msgstr ""
+
+#: inc/options.php:4127 inc/options.php:4184
+msgid "( Eg: Sq Ft)"
+msgstr ""
+
+#: inc/options.php:4138
+msgid "Land Area Field Section"
+msgstr ""
+
+#: inc/options.php:4151
+msgid "Land Area Field Hint"
+msgstr ""
+
+#: inc/options.php:4159
+msgid "Eg 1300"
+msgstr ""
+
+#: inc/options.php:4170
+msgid "Land Prefix Field Section"
+msgstr ""
+
+#: inc/options.php:4177
+msgid "Land Prefix"
+msgstr ""
+
+#: inc/options.php:4183
+msgid "Land Prefix Field Hint"
+msgstr ""
+
+#: inc/options.php:4197
+msgid "Property Detial Fields"
+msgstr ""
+
+#: inc/options.php:4204
+msgid "Bedrooms Field Title"
+msgstr ""
+
+#: inc/options.php:4210
+msgid "Bedrooms Field Placeholder"
+msgstr ""
+
+#: inc/options.php:4211
+msgid "( Eg: 4)"
+msgstr ""
+
+#: inc/options.php:4216
+msgid "Bedroom Field Title"
+msgstr ""
+
+#: inc/options.php:4222
+msgid "Bedroom Field Placeholder"
+msgstr ""
+
+#: inc/options.php:4223
+msgid "( Eg: 2)"
+msgstr ""
+
+#: inc/options.php:4228
+msgid "Garage Field Title"
+msgstr ""
+
+#: inc/options.php:4234
+msgid "Garages Field Placeholder"
+msgstr ""
+
+#: inc/options.php:4235
+msgid "( Eg: 1)"
+msgstr ""
+
+#: inc/options.php:4240
+msgid "Year Field Title"
+msgstr ""
+
+#: inc/options.php:4241
+msgid "Year Built "
+msgstr ""
+
+#: inc/options.php:4246
+msgid "Year Field Placeholder"
+msgstr ""
+
+#: inc/options.php:4247
+msgid "Eg: November 2010"
+msgstr ""
+
+#: inc/options.php:4253
+msgid "Video Field Title"
+msgstr ""
+
+#: inc/options.php:4254
+msgid "Video Link"
+msgstr ""
+
+#: inc/options.php:4259
+msgid "Video Field Placeholder"
+msgstr ""
+
+#: inc/options.php:4260
+msgid "Youtube Video Link"
+msgstr ""
+
+#: inc/options.php:4266
+msgid "Virtual Tour Field Title"
+msgstr ""
+
+#: inc/options.php:4272
+msgid "Virtual Tour Field Placeholder"
+msgstr ""
+
+#: inc/options.php:4273
+msgid "Copy/paste the iframe code of your 360° virtual tour."
+msgstr ""
+
+#: inc/options.php:4284
+msgid "Additional Fields Section"
+msgstr ""
+
+#: inc/options.php:4291
+msgid "Title Field"
+msgstr ""
+
+#: inc/options.php:4297
+msgid "Value Field"
+msgstr ""
+
+#: inc/options.php:4298
+msgid "Value"
+msgstr ""
+
+#: inc/options.php:4303
+msgid "Add More Button"
+msgstr ""
+
+#: inc/options.php:4304 inc/options.php:4495
+msgid "+ Add More"
+msgstr ""
+
+#: inc/options.php:4317
+msgid "Property Location Fields Section"
+msgstr ""
+
+#: inc/options.php:4324
+msgid "Address Field"
+msgstr ""
+
+#: inc/options.php:4331
+msgid "Enter your property address"
+msgstr ""
+
+#: inc/options.php:4337
+msgid "Coordinates Field Title"
+msgstr ""
+
+#: inc/options.php:4344 inc/options.php:4351
+msgid "Latitude (for Google Maps) Field Title"
+msgstr ""
+
+#: inc/options.php:4345 inc/options.php:4855
+msgid "Latitude"
+msgstr ""
+
+#: inc/options.php:4352
+msgid "Longitude "
+msgstr ""
+
+#: inc/options.php:4358
+msgid "Zip Code Field Title"
+msgstr ""
+
+#: inc/options.php:4359
+msgid "Zip or Postal Code "
+msgstr ""
+
+#: inc/options.php:4365
+msgid "Zip Code Placeholder"
+msgstr ""
+
+#: inc/options.php:4366
+msgid "Eg: 10048"
+msgstr ""
+
+#: inc/options.php:4372
+msgid "Neighborhood/Country Field Title"
+msgstr ""
+
+#: inc/options.php:4379
+msgid "Neighborhood/Country Placeholder"
+msgstr ""
+
+#: inc/options.php:4380
+msgid "Eg: England"
+msgstr ""
+
+#: inc/options.php:4386
+msgid "Floor Plan Field Section"
+msgstr ""
+
+#: inc/options.php:4393
+msgid "Floor Name Title"
+msgstr ""
+
+#: inc/options.php:4394
+msgid "Floor Name"
+msgstr ""
+
+#: inc/options.php:4399
+msgid "Floor Name Placeholder"
+msgstr ""
+
+#: inc/options.php:4400
+msgid "Ground Floor"
+msgstr ""
+
+#: inc/options.php:4406
+msgid "Floor Price Title"
+msgstr ""
+
+#: inc/options.php:4407
+msgid "Floor Price ( Only digits )"
+msgstr ""
+
+#: inc/options.php:4412
+msgid "Floor Price Placeholder"
+msgstr ""
+
+#: inc/options.php:4413
+msgid "Eg: 2500"
+msgstr ""
+
+#: inc/options.php:4418
+msgid "Floor Price Prefix Title"
+msgstr ""
+
+#: inc/options.php:4419
+msgid "Price Postfix"
+msgstr ""
+
+#: inc/options.php:4424
+msgid "Floor Price Prefix Placeholder"
+msgstr ""
+
+#: inc/options.php:4425
+msgid "Eg: Per Month"
+msgstr ""
+
+#: inc/options.php:4431
+msgid "Floor Size Title"
+msgstr ""
+
+#: inc/options.php:4432
+msgid "Floor Size ( Only digits )"
+msgstr ""
+
+#: inc/options.php:4437
+msgid "Floor Size Placeholder"
+msgstr ""
+
+#: inc/options.php:4438
+msgid "Eg: 1500"
+msgstr ""
+
+#: inc/options.php:4443
+msgid "Size Postfix Title"
+msgstr ""
+
+#: inc/options.php:4444
+msgid "Size Postfix"
+msgstr ""
+
+#: inc/options.php:4449
+msgid "Size Postfix Placeholder"
+msgstr ""
+
+#: inc/options.php:4450
+msgid "Eg: Sq Ft"
+msgstr ""
+
+#: inc/options.php:4455
+msgid "Bedrooms Title"
+msgstr ""
+
+#: inc/options.php:4461
+msgid "Bedrooms Placeholder"
+msgstr ""
+
+#: inc/options.php:4462
+msgid "Eg: 4"
+msgstr ""
+
+#: inc/options.php:4467
+msgid "Bathrooms Title"
+msgstr ""
+
+#: inc/options.php:4473
+msgid "Bathrooms Placeholder"
+msgstr ""
+
+#: inc/options.php:4474
+msgid "Eg: 2"
+msgstr ""
+
+#: inc/options.php:4480
+msgid "Floor Plan Description Title"
+msgstr ""
+
+#: inc/options.php:4487
+msgid "Floor Plan Image Field Title"
+msgstr ""
+
+#: inc/options.php:4488
+msgid "Floor Plan Image"
+msgstr ""
+
+#: inc/options.php:4494
+msgid "Floor Plan Add More Button"
+msgstr ""
+
+#: inc/options.php:4500
+msgid "Floor Plan Delete Button"
+msgstr ""
+
+#: inc/options.php:4501 inc/theme_functions.php:321
+#: template-parts/dashboard/my-properties/expired.php:143
+#: template-parts/dashboard/my-properties/favourites.php:134
+#: template-parts/dashboard/profile-reviews/submitted.php:79
+#: template-parts/dashboard/reviews/submitted.php:104
+msgid "Delete"
+msgstr ""
+
+#: inc/options.php:4507
+msgid "Form Section Titles"
+msgstr ""
+
+#: inc/options.php:4514
+msgid "Title & Description Section Heading"
+msgstr ""
+
+#: inc/options.php:4515
+msgid "Add Property Page"
+msgstr ""
+
+#: inc/options.php:4521
+msgid "Category & Type Section Heading"
+msgstr ""
+
+#: inc/options.php:4522
+msgid "Property Type & Status"
+msgstr ""
+
+#: inc/options.php:4528
+msgid "Property Price Section Heading"
+msgstr ""
+
+#: inc/options.php:4529
+msgid "Property Price & Currency"
+msgstr ""
+
+#: inc/options.php:4535
+msgid "Gallery Media Section Heading"
+msgstr ""
+
+#: inc/options.php:4536
+msgid "Property Media"
+msgstr ""
+
+#: inc/options.php:4542
+msgid "Gallery Media Note"
+msgstr ""
+
+#: inc/options.php:4543
+msgid "You can select multiple images to upload at one time."
+msgstr ""
+
+#: inc/options.php:4549
+msgid "Gallery Images Order"
+msgstr ""
+
+#: inc/options.php:4550
+msgid "Change images order with Drag & Drop."
+msgstr ""
+
+#: inc/options.php:4556
+msgid "Gallery Upload Button"
+msgstr ""
+
+#: inc/options.php:4557
+msgid "Select Images"
+msgstr ""
+
+#: inc/options.php:4563
+msgid "Property Details Section Heading"
+msgstr ""
+
+#: inc/options.php:4564
+msgid "Property Details"
+msgstr ""
+
+#: inc/options.php:4570
+msgid "Additional Fields Section Heading"
+msgstr ""
+
+#: inc/options.php:4571
+msgid "Additional Features"
+msgstr ""
+
+#: inc/options.php:4576
+msgid "Amenities and Features Section Heading"
+msgstr ""
+
+#: inc/options.php:4582
+msgid "Property Location Section Heading"
+msgstr ""
+
+#: inc/options.php:4583
+msgid "Property Location"
+msgstr ""
+
+#: inc/options.php:4588
+msgid "Floor Plans Section Heading"
+msgstr ""
+
+#: inc/options.php:4594
+msgid "Video Section Heading"
+msgstr ""
+
+#: inc/options.php:4595
+msgid "Video Option"
+msgstr ""
+
+#: inc/options.php:4600
+msgid "Attachments Section Heading"
+msgstr ""
+
+#: inc/options.php:4606
+msgid "Attachments Note"
+msgstr ""
+
+#: inc/options.php:4607
+msgid ""
+"You can attach PDF files, Map images OR other documents to provide further "
+"details related to property."
+msgstr ""
+
+#: inc/options.php:4612
+msgid "Attachments Button"
+msgstr ""
+
+#: inc/options.php:4613
+msgid "+ Add Attachments"
+msgstr ""
+
+#: inc/options.php:4618
+msgid "Contact Information Section Heading"
+msgstr ""
+
+#: inc/options.php:4619
+msgid "Contact Information"
+msgstr ""
+
+#: inc/options.php:4625
+msgid "Form Submission Button"
+msgstr ""
+
+#: inc/options.php:4626
+msgid "Save & Preview"
+msgstr ""
+
+#: inc/options.php:4642
+msgid "Required Fields Alerts"
+msgstr ""
+
+#: inc/options.php:4651
+msgid "Property Title Field"
+msgstr ""
+
+#: inc/options.php:4652
+msgid "Title is required."
+msgstr ""
+
+#: inc/options.php:4658
+msgid "Property type is required."
+msgstr ""
+
+#: inc/options.php:4664
+msgid "Offer type is not selected."
+msgstr ""
+
+#: inc/options.php:4669
+msgid "Label Field"
+msgstr ""
+
+#: inc/options.php:4670
+msgid "Status is required."
+msgstr ""
+
+#: inc/options.php:4676
+msgid "Select any currency."
+msgstr ""
+
+#: inc/options.php:4681
+msgid "Property Price Field"
+msgstr ""
+
+#: inc/options.php:4682
+msgid "Only digits are allowed in price."
+msgstr ""
+
+#: inc/options.php:4687
+msgid "Second Price Field"
+msgstr ""
+
+#: inc/options.php:4688
+msgid "Only digits are allowed in (optional) price."
+msgstr ""
+
+#: inc/options.php:4693
+msgid "After Price Field"
+msgstr ""
+
+#: inc/options.php:4694
+msgid "Only characters are allowed in price postfix."
+msgstr ""
+
+#: inc/options.php:4699
+msgid "Before Price Field"
+msgstr ""
+
+#: inc/options.php:4700
+msgid "Only characters are allowed in price prefix."
+msgstr ""
+
+#: inc/options.php:4705
+msgid "Area Size Field"
+msgstr ""
+
+#: inc/options.php:4706
+msgid "Only digits are allowed in area size."
+msgstr ""
+
+#: inc/options.php:4711
+msgid "Area Size Prefix Field"
+msgstr ""
+
+#: inc/options.php:4712
+msgid "Area prefix is required."
+msgstr ""
+
+#: inc/options.php:4717
+msgid "Land Area Field"
+msgstr ""
+
+#: inc/options.php:4718
+msgid "Only digits are allowed in land area."
+msgstr ""
+
+#: inc/options.php:4723
+msgid "Land Area Prefix Field"
+msgstr ""
+
+#: inc/options.php:4724
+msgid "Land prefix is required."
+msgstr ""
+
+#: inc/options.php:4729
+msgid "Bedrooms Field"
+msgstr ""
+
+#: inc/options.php:4730
+msgid "Only digits are allowed in bedrooms."
+msgstr ""
+
+#: inc/options.php:4735
+msgid "Bathrooms Field"
+msgstr ""
+
+#: inc/options.php:4736
+msgid "Only digits are allowed in bathrooms."
+msgstr ""
+
+#: inc/options.php:4741
+msgid "Garages Field"
+msgstr ""
+
+#: inc/options.php:4742
+msgid "Only digits are allowed in garage."
+msgstr ""
+
+#: inc/options.php:4747
+msgid "Year Built Field"
+msgstr ""
+
+#: inc/options.php:4748
+msgid "Built year is required."
+msgstr ""
+
+#: inc/options.php:4753
+msgid "Video URL Field"
+msgstr ""
+
+#: inc/options.php:4754
+msgid "Youtube video is required."
+msgstr ""
+
+#: inc/options.php:4759
+msgid "360 Virtual Tour Iframe Field"
+msgstr ""
+
+#: inc/options.php:4760
+msgid "Virtual tour iframe is required."
+msgstr ""
+
+#: inc/options.php:4765
+msgid "Zipcode Field"
+msgstr ""
+
+#: inc/options.php:4766
+msgid "Zip or Postal code is required."
+msgstr ""
+
+#: inc/options.php:4771
+msgid "Street Address Field"
+msgstr ""
+
+#: inc/options.php:4772
+msgid "Street address is required."
+msgstr ""
+
+#: inc/options.php:4777
+msgid "Coordinates Field"
+msgstr ""
+
+#: inc/options.php:4778
+msgid "Latitude and longitude are required."
+msgstr ""
+
+#: inc/options.php:4783
+msgid "Location Field"
+msgstr ""
+
+#: inc/options.php:4784
+msgid "Neighborhood is required."
+msgstr ""
+
+#: inc/options.php:4789
+msgid "Gallery Media"
+msgstr ""
+
+#: inc/options.php:4790
+msgid "Property images are required."
+msgstr ""
+
+#: inc/options.php:4795
+msgid "Attachments Fields"
+msgstr ""
+
+#: inc/options.php:4796
+msgid "Attachments are required."
+msgstr ""
+
+#: inc/options.php:4802
+msgid "Map Settings"
+msgstr ""
+
+#: inc/options.php:4810
+msgid "Enable Map"
+msgstr ""
+
+#: inc/options.php:4812
+msgid "Trun on or off Maps."
+msgstr ""
+
+#: inc/options.php:4817
+msgid "Select Map Type "
+msgstr ""
+
+#: inc/options.php:4831
+msgid "Google Notification."
+msgstr ""
+
+#: inc/options.php:4832
+msgid ""
+"Google <strong>maps & places</strong> will only works when you have an API "
+"key.<a href=\"https://developers.google.com/places/web-service/usage-and-"
+"billing\" target=\"_blank\">Google Notification</a>"
+msgstr ""
+
+#: inc/options.php:4837
+msgid "Google Map API Key"
+msgstr ""
+
+#: inc/options.php:4838 inc/options.php:4847
+msgid "How to Find it"
+msgstr ""
+
+#: inc/options.php:4840
+msgid "Google Map & search only works when you entered Google API Key"
+msgstr ""
+
+#: inc/options.php:4846
+msgid "Mapbox Access Token"
+msgstr ""
+
+#: inc/options.php:4849
+msgid "Mapbox only works when you access Token Key"
+msgstr ""
+
+#: inc/options.php:4856 inc/options.php:4864
+msgid "for default map."
+msgstr ""
+
+#: inc/options.php:4863
+msgid "Longitude"
+msgstr ""
+
+#: inc/options.php:4873
+msgid "Geo IP Settings"
+msgstr ""
+
+#: inc/options.php:4881
+msgid "Enable GeoLocation"
+msgstr ""
+
+#: inc/options.php:4883
+msgid "Trun on or off GeoLocation Api."
+msgstr ""
+
+#: inc/options.php:4888
+msgid "Select API Type for Current location "
+msgstr ""
+
+#: inc/options.php:4889
+msgid "For location detection"
+msgstr ""
+
+#: inc/options.php:4890
+msgid ""
+"Above API options are used to identify visitors current location by their ip "
+"address."
+msgstr ""
+
+#: inc/options.php:4903
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/options.php:4911
+msgid "Blog Page Title"
+msgstr ""
+
+#: inc/options.php:4943
+msgid "Packages Text"
+msgstr ""
+
+#: inc/options.php:4956
+msgid "Package Expiry Title"
+msgstr ""
+
+#: inc/options.php:4962
+msgid "Total Listings Title"
+msgstr ""
+
+#: inc/options.php:4968
+msgid "Listing Expiry Title"
+msgstr ""
+
+#: inc/options.php:4974
+msgid "Featured Listing Title"
+msgstr ""
+
+#: inc/options.php:4980
+msgid "Featured For Title"
+msgstr ""
+
+#: inc/options.php:4986
+msgid "Days Option Text"
+msgstr ""
+
+#: inc/options.php:4992
+msgid "Unlimited Option Text"
+msgstr ""
+
+#: inc/options.php:4998
+msgid "Never Expire Option Text"
+msgstr ""
+
+#: inc/options.php:5007
+msgid "Pagination Settings"
+msgstr ""
+
+#: inc/options.php:5017
+msgid "User Personal Dashboard."
+msgstr ""
+
+#: inc/options.php:5018
+msgid "Pagination settings for user personal profile."
+msgstr ""
+
+#: inc/options.php:5023
+msgid "Dashboad Listings"
+msgstr ""
+
+#: inc/options.php:5024
+msgid "Number of listings shown per page."
+msgstr ""
+
+#: inc/options.php:5033
+msgid "Dashboad Agents"
+msgstr ""
+
+#: inc/options.php:5034
+msgid "Number of agents shown per page."
+msgstr ""
+
+#: inc/options.php:5044
+msgid "Placeholder Images"
+msgstr ""
+
+#: inc/options.php:5054
+msgid "Default Buyer/individual Image"
+msgstr ""
+
+#: inc/options.php:5056
+msgid "Select default Buyer/individual image."
+msgstr ""
+
+#: inc/options.php:5063
+msgid "Agency Placeholder Image"
+msgstr ""
+
+#: inc/options.php:5065
+msgid "Set default placeholder image for agencies."
+msgstr ""
+
+#: inc/options.php:5072
+msgid "Agent Placeholder Image"
+msgstr ""
+
+#: inc/options.php:5074
+msgid "Set default placeholder image for agents."
+msgstr ""
+
+#: inc/options.php:5081
+msgid "Profile Detial Cover Image"
+msgstr ""
+
+#: inc/options.php:5083
+msgid "Set default placeholder image for cover image."
+msgstr ""
+
+#: inc/options.php:5090
+msgid "Default Listing Image"
+msgstr ""
+
+#: inc/options.php:5092
+msgid "If there is no image of listing then this will be show."
+msgstr ""
+
+#: inc/options.php:5093
+msgid "Dimensions: 300 x 225"
+msgstr ""
+
+#: inc/options.php:5100
+msgid "Compare Listings"
+msgstr ""
+
+#: inc/options.php:5108
+msgid "Tagline"
+msgstr ""
+
+#: inc/options.php:5109
+msgid "Spot the difference"
+msgstr ""
+
+#: inc/options.php:5114
+msgid "Heading"
+msgstr ""
+
+#: inc/options.php:5115
+msgid "Compare Properties"
+msgstr ""
+
+#: inc/options.php:5120
+msgid "Empty List Message"
+msgstr ""
+
+#: inc/options.php:5121
+msgid "Add properties to compare."
+msgstr ""
+
+#: inc/options.php:5126
+msgid "Empty Page Message"
+msgstr ""
+
+#: inc/options.php:5127
+msgid "Please select more than one property to compare."
+msgstr ""
+
+#: inc/options.php:5135
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/options.php:5143
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/options.php:5144
+msgid "Select footer Layout you want to show."
+msgstr ""
+
+#: inc/options.php:5147
+msgid "Layout Type 1"
+msgstr ""
+
+#: inc/options.php:5157
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/options.php:5159
+msgid "Upload main logo of the website."
+msgstr ""
+
+#: inc/options.php:5165
+msgid "Footer Text"
+msgstr ""
+
+#: inc/options.php:5166
+msgid "All HTML will be stripped"
+msgstr ""
+
+#: inc/options.php:5173 inc/options.php:5176
+msgid "Popular Locations"
+msgstr ""
+
+#: inc/options.php:5174 inc/options.php:5193 inc/options.php:5211
+msgid "Enter section title here"
+msgstr ""
+
+#: inc/options.php:5181
+msgid "Select Locations"
+msgstr ""
+
+#: inc/options.php:5192
+msgid "Top Categories"
+msgstr ""
+
+#: inc/options.php:5195
+msgid "Featured Categories"
+msgstr ""
+
+#: inc/options.php:5200 template-parts/dashboard/profile/agent.php:92
+#: template-parts/dashboard/role/assign-role.php:30
+msgid "Select Type"
+msgstr ""
+
+#: inc/options.php:5210
+msgid "Links Title"
+msgstr ""
+
+#: inc/options.php:5212
+msgid "Qucik Links"
+msgstr ""
+
+#: inc/options.php:5219
+msgid "Quick Links"
+msgstr ""
+
+#: inc/options.php:5220
+msgid "Select the links for the footer."
+msgstr ""
+
+#: inc/options.php:5226
+msgid "Address Info"
+msgstr ""
+
+#: inc/options.php:5227
+msgid "Leave empty if you don' want to show."
+msgstr ""
+
+#: inc/options.php:5235
+msgid "B-Floor,Arcade Model Town, USA"
+msgstr ""
+
+#: inc/options.php:5235
+msgid "Mon - Sun: 8:00 - 16:00"
+msgstr ""
+
+#: inc/options.php:5241
+msgid "Copy Rights Text"
+msgstr ""
+
+#: inc/options.php:5242
+msgid ""
+"Copyright 2020 &copy; Theme Created By ScriptsBundle, All Rights Reserved."
+msgstr ""
+
+#: inc/options.php:5256
+msgid "Social Icons For Foter. You can sort it out as you want."
+msgstr ""
+
+#: inc/theme_functions.php:298
+#: template-parts/listing-detial/style-type/classic.php:340
+#: template-parts/listing-detial/style-type/elegent.php:169
+msgid "Mark As Featured"
+msgstr ""
+
+#: inc/theme_functions.php:303 woocommerce/checkout/thankyou.php:36
+msgid "Pay"
+msgstr ""
+
+#: inc/theme_functions.php:307 template-parts/dashboard/invoices/invoice.php:80
+msgid "Paid"
+msgstr ""
+
+#: inc/theme_functions.php:319
+#: template-parts/listing-detial/style-type/classic.php:332
+#: template-parts/listing-detial/style-type/elegent.php:161
+msgid "Edit"
+msgstr ""
+
+#: inc/theme_functions.php:488
+#: template-parts/listing-detial/sidebar/nearby.php:8
+msgid "mi"
+msgstr ""
+
+#: inc/theme_functions.php:489
+msgid "ft"
+msgstr ""
+
+#: inc/theme_functions.php:490
+msgid "yd"
+msgstr ""
+
+#: inc/theme_functions.php:491
+#: template-parts/listing-detial/sidebar/nearby.php:9
+msgid "km"
+msgstr ""
+
+#: inc/theme_functions.php:917
+msgid "Copyright"
+msgstr ""
+
+#: inc/theme_functions.php:917
+msgid "All Rights Reserved"
+msgstr ""
+
+#: inc/theme_functions.php:947
+msgid "Package Expiry"
+msgstr ""
+
+#: inc/theme_settings.php:52
+msgid "Foodzone Menu"
+msgstr ""
+
+#: inc/theme_settings.php:76
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/theme_settings.php:90
+msgid "Agency Search Sidebar"
+msgstr ""
+
+#: inc/theme_settings.php:100
+msgid "Agents Search Sidebar"
+msgstr ""
+
+#: inc/theme_settings.php:110
+msgid "Property Search Sidebar"
+msgstr ""
+
+#: inc/theme_settings.php:120
+msgid "Home Ajax Search Sidebar"
+msgstr ""
+
+#: inc/theme_utilities.php:28
+msgid "Category"
+msgstr ""
+
+#: inc/theme_utilities.php:32
+msgid "Listing Details"
+msgstr ""
+
+#: inc/theme_utilities.php:37
+msgid "Blog Details"
+msgstr ""
+
+#: inc/theme_utilities.php:54
+msgid "Page not Found"
+msgstr ""
+
+#: inc/theme_utilities.php:58
+msgid "Author"
+msgstr ""
+
+#: inc/theme_utilities.php:67
+msgid "Archive"
+msgstr ""
+
+#: inc/theme_utilities.php:71
+msgid "Latest News & Trends"
+msgstr ""
+
+#: inc/theme_utilities.php:77
+msgid "Product Details"
+msgstr ""
+
+#: inc/theme_utilities.php:81
+msgid "Cart"
+msgstr ""
+
+#: inc/theme_utilities.php:85
+msgid "Checkout"
+msgstr ""
+
+#: inc/theme_utilities.php:97
+msgid "Shop"
+msgstr ""
+
+#: inc/theme_utilities.php:175
+msgid "No Comments"
+msgstr ""
+
+#: inc/theme_utilities.php:178
+msgid " Comments"
+msgstr ""
+
+#: inc/theme_utilities.php:181
+msgid "1 Comment"
+msgstr ""
+
+#: inc/theme_utilities.php:198
+msgid "Search for:"
+msgstr ""
+
+#: inc/theme_utilities.php:255
+msgid "Sign in or register to sync your favorite properties across devices"
+msgstr ""
+
+#: inc/theme_utilities.php:257
+msgid "Create new account"
+msgstr ""
+
+#: inc/theme_utilities.php:448
+#, php-format
+msgctxt "Human-readable time"
+msgid "%s ago"
+msgstr ""
+
+#: inc/theme_utilities.php:462
+#, php-format
+msgctxt "Human-readable time"
+msgid "%s"
+msgstr ""
+
+#: inc/theme_utilities.php:845 inc/theme_utilities.php:848
+#: inc/theme_utilities.php:951 inc/theme_utilities.php:954
+msgid "Previous"
+msgstr ""
+
+#: inc/theme_utilities.php:909 inc/theme_utilities.php:911
+#: inc/theme_utilities.php:1015 inc/theme_utilities.php:1017
+msgid "Next"
+msgstr ""
+
+#: inc/theme_utilities.php:1047
+msgid "Pingback:"
+msgstr ""
+
+#: inc/theme_utilities.php:1047
+msgid "(Edit)"
+msgstr ""
+
+#: inc/theme_utilities.php:1073
+msgid "on "
+msgstr ""
+
+#: inc/theme_utilities.php:1253
+#: template-parts/dashboard/my-properties/complete.php:119
+msgid "Whoops!"
+msgstr ""
+
+#: inc/theme_utilities.php:1285
+msgid "Package Expired"
+msgstr ""
+
+#: inc/theme_utilities.php:1287
+msgid ""
+"Your package is expired! You will not be able to continue listings unless "
+"you renew your package."
+msgstr ""
+
+#: inc/theme_utilities.php:1300 inc/theme_utilities.php:1315
+#: template-parts/dashboard/my-properties/expired.php:91
+msgid "Notification"
+msgstr ""
+
+#: inc/theme_utilities.php:1302
+msgid ""
+"Your listings are expired! You will not be able to continue listings unless "
+"you renew your package."
+msgstr ""
+
+#: inc/theme_utilities.php:1317 inc/theme_utilities.php:1371
+msgid "You dont have any package please select a package to submit listings."
+msgstr ""
+
+#: inc/theme_utilities.php:1332
+msgid "You don't have any review yet!. Your review score will be here. "
+msgstr ""
+
+#: inc/theme_utilities.php:1345
+msgid "Your recent reviews or feedback will be shown here."
+msgstr ""
+
+#: inc/theme_utilities.php:1358
+msgid ""
+"Sorry! You have no listing yet! Most viewed listings will be shown here."
+msgstr ""
+
+#: template-parts/agency-detial/listings/properties.php:26
+msgid "View All Properties"
+msgstr ""
+
+#: template-parts/agency-detial/style-type/classic.php:146
+#: template-parts/agent-detial/style-type/classic.php:126
+#: template-parts/buyer-detial/style-type/classic.php:126
+#, php-format
+msgid "(%d Ratings)"
+msgstr ""
+
+#: template-parts/agency-detial/style-type/classic.php:158
+#: template-parts/agent-detial/style-type/classic.php:138
+#: template-parts/buyer-detial/style-type/classic.php:138
+msgid "View Listings"
+msgstr ""
+
+#: template-parts/authorization/password-reset.php:9
+msgid "Reset Your Password"
+msgstr ""
+
+#: template-parts/authorization/signin.php:56
+msgid "Forgot password?"
+msgstr ""
+
+#: template-parts/authorization/signin.php:80
+msgid "Don't have an account?"
+msgstr ""
+
+#: template-parts/authorization/signin.php:80
+msgid "Sign up now!"
+msgstr ""
+
+#: template-parts/authorization/signin.php:94
+msgid "Forgot your password?"
+msgstr ""
+
+#: template-parts/authorization/signin.php:108
+msgid "Reset My Password"
+msgstr ""
+
+#: template-parts/authorization/signup.php:42
+#: template-parts/dashboard/role/assign-role.php:7
+#: template-parts/dashboard/role/assign-role.php:13
+msgid "Select User Type"
+msgstr ""
+
+#: template-parts/authorization/signup.php:43
+#: template-parts/dashboard/role/assign-role.php:14
+msgid "Agency"
+msgstr ""
+
+#: template-parts/authorization/signup.php:44
+#: template-parts/dashboard/role/assign-role.php:15
+msgid "Agent"
+msgstr ""
+
+#: template-parts/authorization/signup.php:45
+#: template-parts/dashboard/role/assign-role.php:16
+msgid "Buyer/Individual"
+msgstr ""
+
+#: template-parts/authorization/signup.php:92
+#, php-format
+msgid "I agree to the <a href=\"%s\">terms of service</a>"
+msgstr ""
+
+#: template-parts/blog/blog-detial/content-area.php:9
+msgid "Post date"
+msgstr ""
+
+#: template-parts/blog/blog-detial/content-area.php:18
+msgid "Post author"
+msgstr ""
+
+#: template-parts/blog/blog-detial/content-area.php:23
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: template-parts/blog/blog-detial/content-area.php:29
+msgid "Categories"
+msgstr ""
+
+#: template-parts/blog/blog-detial/content-area.php:33
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr ""
+
+#: template-parts/blog/content-none.php:13
+msgid "Sorry!!! No Record Found"
+msgstr ""
+
+#: template-parts/blog/get-blog-posts.php:23
+msgid "Read More"
+msgstr ""
+
+#: template-parts/compare/compare-detial.php:17
+msgid "Specifications"
+msgstr ""
+
+#: template-parts/compare/compare-detial.php:57
+msgid "Other Features"
+msgstr ""
+
+#: template-parts/compare/compare-listings.php:56
+#: template-parts/search/agency-search/search-with-sidebar.php:92
+#: template-parts/search/agent-search/search-with-sidebar.php:102
+#: template-parts/search/property-search/search-with-map.php:326
+#: template-parts/search/property-search/search-with-modern.php:379
+#: template-parts/search/property-search/search-with-sidebar.php:367
+msgid "Clear All"
+msgstr ""
+
+#: template-parts/dashboard/agents/content-none.php:14
+#: template-parts/dashboard/my-properties/content-none-saved.php:14
+#: template-parts/dashboard/my-properties/content-none.php:14
+msgid "No Result Found."
+msgstr ""
+
+#: template-parts/dashboard/agents/content-none.php:17
+msgid "Sorry, You haven't added any agent yet!"
+msgstr ""
+
+#: template-parts/dashboard/agents/create.php:38
+msgid "Select Agent Type"
+msgstr ""
+
+#: template-parts/dashboard/agents/create.php:113
+msgid "View"
+msgstr ""
+
+#: template-parts/dashboard/agents/publish.php:38
+msgid "View All Agents"
+msgstr ""
+
+#: template-parts/dashboard/agents/publish.php:60
+msgid "N/A"
+msgstr ""
+
+#: template-parts/dashboard/agents/publish.php:94
+#, php-format
+msgid "Properties : %s"
+msgstr ""
+
+#: template-parts/dashboard/content-area/dashboard.php:248
+msgid "posted a review "
+msgstr ""
+
+#: template-parts/dashboard/content-area/dashboard.php:252
+#: template-parts/listing-detial/sidebar/profile.php:135
+msgid "View More"
+msgstr ""
+
+#: template-parts/dashboard/content-area/dashboard.php:274
+msgid "Most Viewed Properties"
+msgstr ""
+
+#: template-parts/dashboard/content-area/dashboard.php:343
+msgid "Plan Details"
+msgstr ""
+
+#: template-parts/dashboard/content-area/dashboard.php:354
+msgid "View Packages"
+msgstr ""
+
+#: template-parts/dashboard/invoices/content-none.php:14
+msgid "No Order Found."
+msgstr ""
+
+#: template-parts/dashboard/invoices/content-none.php:17
+msgid "Sorry! There is no invoice generated yet!"
+msgstr ""
+
+#: template-parts/dashboard/invoices/invoice.php:66
+msgid "View Property"
+msgstr ""
+
+#: template-parts/dashboard/invoices/invoice.php:72
+msgid "Purchase Date"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/complete.php:102
+msgid "Pay Per Listing"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/complete.php:122
+msgid "Sorry, something went wrong. Please try again, or refresh the page."
+msgstr ""
+
+#: template-parts/dashboard/my-properties/content-none-saved.php:17
+msgid "There are no favorites"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/content-none.php:17
+msgid "Sorry! You have no listing yet!"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/create.php:690
+#: template-parts/dashboard/my-properties/create.php:804
+msgid "Delete Plan Image"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/create.php:698
+#: template-parts/dashboard/my-properties/create.php:797
+msgid "Select Plan Image"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/create.php:962
+#: template-parts/search/property-search/search-with-map.php:204
+#: template-parts/search/property-search/search-with-modern.php:220
+#: template-parts/search/property-search/search-with-modern.php:236
+#: template-parts/search/property-search/search-with-sidebar.php:213
+#: template-parts/search/property-search/search-with-sidebar.php:229
+msgid "Select an option"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/create.php:999
+msgid "Listing Settings"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/create.php:1005
+msgid "Mark This Listing As Featured!"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/create.php:1013
+msgid "Yes (Anyone can view my listing)"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/create.php:1021
+msgid "No (Only logged in user can can view)"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/expired.php:94
+msgid ""
+"Properties were no longer visible for public view. It no longer appears in "
+"search or home."
+msgstr ""
+
+#: template-parts/dashboard/my-properties/expired.php:141
+msgid "Re Active"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:28
+msgid "Submission Fee"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:33
+msgid "Featured Fee"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:73
+msgid "Submission Fee : "
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:82
+msgid "Duration :"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:82
+msgid "Never Expire"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:86
+#, php-format
+msgid "Duration : %s Days"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:94
+msgid "Featured For :"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:94
+msgid "Forever"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:98
+#, php-format
+msgid "Featured For : %s Days"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:106
+msgid "Featured Fee : "
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:126
+msgid "Select Payment"
+msgstr ""
+
+#: template-parts/dashboard/my-properties/order.php:134
+#: template-parts/dashboard/my-properties/order.php:147
+msgid "-- OR --"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/received.php:136
+msgid "posted a review on your profile"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/received.php:144
+#: template-parts/dashboard/profile-reviews/submitted.php:86
+msgid "Recommended You"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/received.php:149
+#: template-parts/dashboard/profile-reviews/submitted.php:91
+#: template-parts/generic-sections/reviews/reviews.php:66
+msgid "Not Recommended"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/received.php:259
+#: template-parts/dashboard/reviews/received.php:146
+msgid "Reply to this review"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/received.php:264
+#: template-parts/dashboard/profile-reviews/submitted.php:374
+#: template-parts/dashboard/reviews/received.php:150
+#: template-parts/dashboard/reviews/submitted.php:176
+msgid "Write a reply to this review"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/received.php:272
+#: template-parts/dashboard/profile-reviews/submitted.php:384
+#: template-parts/dashboard/reviews/received.php:157
+#: template-parts/dashboard/reviews/submitted.php:183
+msgid "Submit Reply"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/received.php:288
+#: template-parts/dashboard/reviews/received.php:172
+msgid "No Review Received!"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/received.php:289
+#: template-parts/dashboard/profile-reviews/submitted.php:406
+#: template-parts/dashboard/reviews/received.php:173
+#: template-parts/dashboard/reviews/submitted.php:199
+msgid "All notification will be shown here."
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/submitted.php:77
+#: template-parts/dashboard/reviews/submitted.php:102
+msgid "You have posted a review on"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/submitted.php:201
+#: template-parts/dashboard/reviews/submitted.php:137
+msgid "Edit Review"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/submitted.php:334
+#: template-parts/dashboard/profile-reviews/submitted.php:354
+#: template-parts/generic-sections/reviews/form.php:157
+#: template-parts/generic-sections/reviews/form.php:177
+msgid "Yes"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/submitted.php:340
+#: template-parts/dashboard/profile-reviews/submitted.php:360
+#: template-parts/generic-sections/reviews/form.php:163
+#: template-parts/generic-sections/reviews/form.php:183
+msgid "No"
+msgstr ""
+
+#: template-parts/dashboard/profile-reviews/submitted.php:405
+#: template-parts/dashboard/reviews/submitted.php:198
+msgid "No Review Submitted!"
+msgstr ""
+
+#: template-parts/dashboard/profile/agency.php:144
+#: template-parts/dashboard/profile/agent.php:102
+msgid "Select Location"
+msgstr ""
+
+#: template-parts/dashboard/profile/agency.php:212
+#: template-parts/dashboard/profile/agent.php:243
+#: template-parts/dashboard/profile/buyer.php:168
+msgid "Street no 12,Cardiff"
+msgstr ""
+
+#: template-parts/dashboard/profile/agency.php:225
+#: template-parts/dashboard/profile/agent.php:256
+#: template-parts/dashboard/profile/buyer.php:181
+msgid "Your location Latitude"
+msgstr ""
+
+#: template-parts/dashboard/profile/agency.php:233
+#: template-parts/dashboard/profile/agent.php:264
+#: template-parts/dashboard/profile/buyer.php:189
+msgid "Your location Longitude"
+msgstr ""
+
+#: template-parts/dashboard/profile/agent.php:153
+msgid "Eg: Monday - Friday, 9 AM - 9 PM"
+msgstr ""
+
+#: template-parts/dashboard/profile/agent.php:169
+msgid "Eg: Founder & CEO."
+msgstr ""
+
+#: template-parts/dashboard/profile/info.php:111
+msgid "Cover Image"
+msgstr ""
+
+#: template-parts/dashboard/profile/info.php:129
+#: template-parts/dashboard/profile/info.php:130
+msgid "Upload"
+msgstr ""
+
+#: template-parts/dashboard/reviews/received.php:112
+msgid "posted a review on"
+msgstr ""
+
+#: template-parts/dashboard/reviews/received.php:133
+#: template-parts/dashboard/reviews/submitted.php:124
+msgid "5"
+msgstr ""
+
+#: template-parts/dashboard/role/assign-role.php:26
+msgid ""
+"<strong>Note:</strong> Please choose your type accordingly because you can't "
+"change your type after selection."
+msgstr ""
+
+#: template-parts/generic-sections/reviews/form.php:206
+#: template-parts/listing-detial/reviews/form.php:55
+msgid "Submit Review"
+msgstr ""
+
+#: template-parts/generic-sections/reviews/reviews.php:62
+#: tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: template-parts/generic-sections/reviews/reviews.php:190
+#: template-parts/listing-detial/reviews/reviews.php:90
+msgid "Author responded on"
+msgstr ""
+
+#: template-parts/generic-sections/sidebar/contact/contact.php:7
+msgid "Contact"
+msgstr ""
+
+#: template-parts/generic-sections/sidebar/contact/contact.php:25
+#: template-parts/listing-detial/schedule/schedule.php:60
+#: template-parts/listing-detial/sidebar/contact.php:30
+#: template-parts/listing-detial/style-type/classic.php:195
+msgid "Your Message"
+msgstr ""
+
+#: template-parts/generic-sections/sidebar/contact/contact.php:32
+#: template-parts/listing-detial/schedule/schedule.php:69
+#: template-parts/listing-detial/sidebar/contact.php:37
+msgid "Send Email"
+msgstr ""
+
+#: template-parts/generic-sections/sidebar/info/info.php:103
+#: template-parts/listing-detial/sidebar/profile.php:129
+msgid "View Website"
+msgstr ""
+
+#: template-parts/generic-sections/sidebar/score/score.php:65
+#, php-format
+msgid "View All %s"
+msgstr ""
+
+#: template-parts/listing-detial/details/detail.php:8
+msgid "Last Updated On"
+msgstr ""
+
+#: template-parts/listing-detial/details/detail.php:8
+msgid "at"
+msgstr ""
+
+#: template-parts/listing-detial/floorplans/plans.php:27
+msgid "Rooms"
+msgstr ""
+
+#: template-parts/listing-detial/floorplans/plans.php:28
+msgid "Bath"
+msgstr ""
+
+#: template-parts/listing-detial/nearby/nearby.php:14
+#: template-parts/listing-detial/walkscore/walkscore.php:18
+msgid "Powered by"
+msgstr ""
+
+#: template-parts/listing-detial/reviews/reviews.php:102
+msgid "Like"
+msgstr ""
+
+#: template-parts/listing-detial/reviews/reviews.php:106
+msgid "Love"
+msgstr ""
+
+#: template-parts/listing-detial/reviews/reviews.php:114
+msgid "Dislike"
+msgstr ""
+
+#: template-parts/listing-detial/reviews/score.php:12
+msgid "Average Based On"
+msgstr ""
+
+#: template-parts/listing-detial/reviews/score.php:12
+#: template-parts/listing-detial/style-type/classic.php:52
+#: template-parts/listing-detial/style-type/elegent.php:71
+msgid "Ratings"
+msgstr ""
+
+#: template-parts/listing-detial/schedule/schedule.php:14
+msgid "Date"
+msgstr ""
+
+#: template-parts/listing-detial/schedule/schedule.php:22
+msgid "Time"
+msgstr ""
+
+#: template-parts/listing-detial/schedule/schedule.php:44
+msgid "Phone"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:43
+msgid "Yearly"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:44
+msgid "Monthly"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:46
+msgid "Enter Percentage"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:53
+msgid "Years"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:54
+msgid "Months"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:56
+msgid "Enter Duration"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:64
+msgid "The remaining dept is"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:65
+msgid "The monthly rate is"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:66
+msgid "There are"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:66
+msgid "Payment Periods"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:67
+msgid "The Monthly Payment"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:68
+msgid "Total Payment"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/calculator.php:69
+msgid "Total Interest Payment"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/stats.php:28
+#: template-parts/listing-detial/sidebar/stats.php:32
+#, php-format
+msgid "%s Rating"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/stats.php:44
+#: template-parts/listing-detial/sidebar/stats.php:48
+#, php-format
+msgid "%s Favorites"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/stats.php:67
+#: template-parts/listing-detial/sidebar/stats.php:71
+#, php-format
+msgid "%s Comments"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/stats.php:83
+#: template-parts/listing-detial/sidebar/stats.php:87
+#, php-format
+msgid "%s Likes"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/stats.php:99
+#: template-parts/listing-detial/sidebar/stats.php:103
+#, php-format
+msgid "%s Love"
+msgstr ""
+
+#: template-parts/listing-detial/sidebar/stats.php:115
+#: template-parts/listing-detial/sidebar/stats.php:119
+#, php-format
+msgid "%s Dislike"
+msgstr ""
+
+#: template-parts/listing-detial/style-type/classic.php:57
+#, php-format
+msgid "Views : %s "
+msgstr ""
+
+#: template-parts/listing-detial/style-type/classic.php:164
+msgid "This property is marketed by"
+msgstr ""
+
+#: template-parts/listing-detial/style-type/classic.php:200
+msgid "Request Info"
+msgstr ""
+
+#: template-parts/listing-detial/style-type/elegent.php:21
+msgid "Notification!"
+msgstr ""
+
+#: template-parts/listing-detial/style-type/elegent.php:24
+msgid "This listing has been expired."
+msgstr ""
+
+#: template-parts/listing-detial/walkscore/walkscore.php:32
+msgid "Walk Scores"
+msgstr ""
+
+#: template-parts/listing-detial/walkscore/walkscore.php:38
+msgid "View More Detials"
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:21
+msgid "Find Agencies"
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:29
+#: template-parts/search/agent-search/search-with-sidebar.php:34
+#: template-parts/search/property-search/search-with-modern.php:169
+#: template-parts/search/property-search/search-with-sidebar.php:162
+msgid "Select Distance"
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:34
+#: template-parts/search/agent-search/search-with-sidebar.php:39
+#: template-parts/search/property-search/search-with-modern.php:174
+#: template-parts/search/property-search/search-with-sidebar.php:167
+msgid "KM"
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:43
+#: template-parts/search/agent-search/search-with-sidebar.php:48
+msgid "Search By Name"
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:56
+#: template-parts/search/agent-search/search-with-sidebar.php:66
+#: template-parts/search/property-search/search-with-modern.php:338
+#: template-parts/search/property-search/search-with-sidebar.php:331
+msgid "Search"
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:73
+#: template-parts/search/agent-search/search-with-sidebar.php:83
+#: template-parts/search/property-search/search-with-modern.php:360
+#: template-parts/search/property-search/search-with-sidebar.php:348
+#, php-format
+msgid "<span class=\"clr-yal\"> %d </span> Results Found "
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:76
+#: template-parts/search/agent-search/search-with-sidebar.php:86
+#: template-parts/search/property-search/search-with-map.php:310
+#: template-parts/search/property-search/search-with-modern.php:363
+#: template-parts/search/property-search/search-with-sidebar.php:351
+msgid "Short by"
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:79
+#: template-parts/search/agent-search/search-with-sidebar.php:89
+#: template-parts/search/property-search/search-with-map.php:313
+#: template-parts/search/property-search/search-with-modern.php:366
+#: template-parts/search/property-search/search-with-sidebar.php:354
+msgid "Newest To Oldest"
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:80
+#: template-parts/search/agent-search/search-with-sidebar.php:90
+#: template-parts/search/property-search/search-with-map.php:314
+#: template-parts/search/property-search/search-with-modern.php:367
+#: template-parts/search/property-search/search-with-sidebar.php:355
+msgid "Oldest To New"
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:81
+#: template-parts/search/agent-search/search-with-sidebar.php:91
+#: template-parts/search/property-search/search-with-map.php:315
+#: template-parts/search/property-search/search-with-modern.php:368
+#: template-parts/search/property-search/search-with-sidebar.php:356
+msgid "Alphabetically [a-z]"
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:82
+#: template-parts/search/agent-search/search-with-sidebar.php:92
+#: template-parts/search/property-search/search-with-map.php:316
+#: template-parts/search/property-search/search-with-modern.php:369
+#: template-parts/search/property-search/search-with-sidebar.php:357
+msgid "Alphabetically [z-a]"
+msgstr ""
+
+#: template-parts/search/agency-search/search-with-sidebar.php:92
+#: template-parts/search/agent-search/search-with-sidebar.php:102
+#: template-parts/search/property-search/search-with-map.php:326
+#: template-parts/search/property-search/search-with-modern.php:379
+#: template-parts/search/property-search/search-with-sidebar.php:367
+msgid "Filters"
+msgstr ""
+
+#: template-parts/search/agent-search/search-with-sidebar.php:26
+msgid "Find Agents"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:171
+#: template-parts/search/property-search/search-with-modern.php:186
+#: template-parts/search/property-search/search-with-sidebar.php:179
+msgid "Keyword (e.g 'office')"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:194
+#: template-parts/search/property-search/search-with-modern.php:218
+#: template-parts/search/property-search/search-with-modern.php:219
+#: template-parts/search/property-search/search-with-sidebar.php:211
+#: template-parts/search/property-search/search-with-sidebar.php:212
+msgid "Location"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:225
+#: template-parts/search/property-search/search-with-modern.php:246
+#: template-parts/search/property-search/search-with-sidebar.php:239
+msgid "Price From"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:229
+#: template-parts/search/property-search/search-with-modern.php:250
+#: template-parts/search/property-search/search-with-sidebar.php:243
+msgid "Price To"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:238
+#: template-parts/search/property-search/search-with-modern.php:256
+#: template-parts/search/property-search/search-with-sidebar.php:249
+msgid "(Sqft)"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:240
+#: template-parts/search/property-search/search-with-modern.php:258
+#: template-parts/search/property-search/search-with-sidebar.php:251
+msgid "Area From"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:244
+#: template-parts/search/property-search/search-with-modern.php:262
+#: template-parts/search/property-search/search-with-sidebar.php:255
+msgid "Area To"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:255
+#: template-parts/search/property-search/search-with-map.php:274
+#: template-parts/search/property-search/search-with-modern.php:271
+#: template-parts/search/property-search/search-with-modern.php:290
+#: template-parts/search/property-search/search-with-sidebar.php:264
+#: template-parts/search/property-search/search-with-sidebar.php:283
+msgid "Any"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:257
+#: template-parts/search/property-search/search-with-map.php:276
+#: template-parts/search/property-search/search-with-modern.php:273
+#: template-parts/search/property-search/search-with-modern.php:292
+#: template-parts/search/property-search/search-with-sidebar.php:266
+#: template-parts/search/property-search/search-with-sidebar.php:285
+msgid "1+"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:259
+#: template-parts/search/property-search/search-with-map.php:278
+#: template-parts/search/property-search/search-with-modern.php:275
+#: template-parts/search/property-search/search-with-modern.php:294
+#: template-parts/search/property-search/search-with-sidebar.php:268
+#: template-parts/search/property-search/search-with-sidebar.php:287
+msgid "2+"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:261
+#: template-parts/search/property-search/search-with-map.php:280
+#: template-parts/search/property-search/search-with-modern.php:277
+#: template-parts/search/property-search/search-with-modern.php:296
+#: template-parts/search/property-search/search-with-sidebar.php:270
+#: template-parts/search/property-search/search-with-sidebar.php:289
+msgid "3+"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:263
+#: template-parts/search/property-search/search-with-map.php:282
+#: template-parts/search/property-search/search-with-modern.php:279
+#: template-parts/search/property-search/search-with-modern.php:298
+#: template-parts/search/property-search/search-with-sidebar.php:272
+#: template-parts/search/property-search/search-with-sidebar.php:291
+msgid "4+"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:265
+#: template-parts/search/property-search/search-with-map.php:284
+#: template-parts/search/property-search/search-with-modern.php:281
+#: template-parts/search/property-search/search-with-modern.php:300
+#: template-parts/search/property-search/search-with-sidebar.php:274
+#: template-parts/search/property-search/search-with-sidebar.php:293
+msgid "5+"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:292
+msgid "Apply Filters"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-map.php:307
+#, php-format
+msgid "Showing 1 - %s of <span class=\"clr-yal\"> %d Listings </span>"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-modern.php:160
+#: template-parts/search/property-search/search-with-sidebar.php:153
+msgid "Advanced Search"
+msgstr ""
+
+#: template-parts/search/property-search/search-with-modern.php:307
+#: template-parts/search/property-search/search-with-sidebar.php:300
+msgid "Filter By Features"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:393
+#: tgm/class-tgm-plugin-activation.php:912
+#: tgm/class-tgm-plugin-activation.php:2618
+#: tgm/class-tgm-plugin-activation.php:3648
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:394
+#: tgm/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:395
+#: tgm/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:1019
+#: tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:1206
+#: tgm/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2808
+#: woocommerce/cart/shipping-calculator.php:84
+msgid "Update"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: tgm/class-tgm-plugin-activation.php:3566
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: tgm/class-tgm-plugin-activation.php:3569
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:3571
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3575
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:3577
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3577
+#: tgm/class-tgm-plugin-activation.php:3585
+msgid "Show Details"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3577
+#: tgm/class-tgm-plugin-activation.php:3585
+msgid "Hide Details"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3578
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: tgm/class-tgm-plugin-activation.php:3580
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3583
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:3585
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3586
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: tgm/tgm-init.php:39
+msgid "Elementor"
+msgstr ""
+
+#: tgm/tgm-init.php:51
+msgid "Redux Framework"
+msgstr ""
+
+#: tgm/tgm-init.php:63
+msgid "Woocommerce"
+msgstr ""
+
+#: tgm/tgm-init.php:74
+msgid "Foodzone Elementor Widgets"
+msgstr ""
+
+#: tgm/tgm-init.php:85
+msgid "Foodzone Framework"
+msgstr ""
+
+#: tgm/tgm-init.php:96
+msgid "Contact Form 7"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:29
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:53
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:54
+msgid "Change address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:56
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:64
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:68
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:74
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:78
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:27
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:30 woocommerce/cart/cart-totals.php:31
+msgid "Subtotal"
+msgstr ""
+
+#. translators: %s location.
+#: woocommerce/cart/cart-totals.php:58
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart-totals.php:93
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart.php:82
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:90
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:94 woocommerce/cart/cart.php:103
+msgctxt "front-end"
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:131
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:134
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/cart/cart.php:151 woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:153 woocommerce/checkout/form-coupon.php:40
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:160 woocommerce/cart/cart.php:161
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:25
+msgid "Proceed to checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:31
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:50
+#: woocommerce/cart/shipping-calculator.php:54
+#: woocommerce/cart/shipping-calculator.php:65
+msgid "State / County"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:55
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:23
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:44
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:33
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:46 woocommerce/checkout/thankyou.php:104
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:55
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:67
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:79
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:91
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:45
+msgid "Order details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:51
+msgid "Product"
+msgstr ""
+
+#: woocommerce/order/order-details.php:93
+msgid "Note:"
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:64
+msgid "There are no reviews yet."
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:75
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:77
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Name"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:120
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:124
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:125
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:126
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:127
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:128
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:129
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:134
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:141
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:46
+msgid "Clear"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "foodzone"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://listing.foodzone-wp.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Foodzone is a premium & responsive WordPress theme designed for Real Estate "
+"companies agencies & independent agents where modern aesthetics are "
+"combined. Foodzone theme provides a complete property management system "
+"where users can complete online property marketplace for users and members, "
+"offering them their separate profile page, dashboards, and accepting "
+"different payment gateways."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Scripts Bundle"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://scriptsbundle.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Agencies Search */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Agents Search */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Compare Properties */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Author Dashboard */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Property Search */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "SignIn Page */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Registration Page */"
+msgstr ""
