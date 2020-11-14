@@ -998,8 +998,8 @@
 }
 
 .res-blog-box .res-blog-content2 {
-    padding: 25px 25px 22px;
-    margin-top: 30px;
+    padding: 25px 25px 25px;
+    margin-top: 20px;
 }
 
 .res-blog-box .res-blog-content .res-blog-detail span img {
@@ -1181,11 +1181,13 @@
     font-size: 16px;
     background-color: rgba(255, 121, 0, 0.1);
     border-radius: 4px;
-    padding: 8px 12px;
-    width: 35px;
     text-align: center;
     margin-right: 6px;
     transition: .6s;
+    width: 40px;
+    height: 38px;
+    line-height: 38px;
+    vertical-align: middle;
 }
 
 .res-f-social i:hover {
@@ -1207,8 +1209,7 @@
 
 .res-f-icon {
     float: left;
-    margin-right: 12px;
-    margin-top: 8px;
+    margin: 16px 12px 16px 0px;
 }
 
 .res-f-detail-2 {
@@ -1231,8 +1232,12 @@
 .res-f-container {
     position: relative;
     background: #f7f7f9;
-    padding: 60px 30px;
+    padding: 60px 0px;
     height: 100%;
+    padding-top: 80px;
+}
+.res-f-container .res-f-container-inner{
+    padding:0px 30px;
 }
 
 .res-f-detail-2 p span {
@@ -1268,11 +1273,11 @@
 .res-f-bottom {
     background-color: #000;
     padding: 18px 0;
+    border-top:1px solid #f7f7f7;
 }
 
 .res-f-right ul li {
     float: left;
-    margin-right: 40px;
     position: relative;
 }
 
@@ -1311,13 +1316,13 @@
     font-weight: 500;
 }
 
-.res-f-right ul li::before {
-    content: "";
-    top: 20%;
-    position: absolute;
-    height: 70%;
+.res-f-right ul li a{
     border-right: 1px solid rgba(255, 255, 255, 0.6);
-    right: -26%;
+    padding: 0px 15px;
+}
+.res-f-right ul li:last-child a{
+    border-right: none;
+    padding-right: 0px;
 }
 
 .res-header-2 .sb-menu > ul > li > .btn-theme {

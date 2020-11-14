@@ -102,16 +102,24 @@ if (!function_exists('foodzone_site_header')) {
     }
 
 }
-// Site Main Header
+
 if (!function_exists('foodzone_site_footer')) {
 
     function foodzone_site_footer() {
-        $layout = 1;
-        if (foodzone_strings('prop_footer_layout') != "") {
-            $layout = foodzone_strings('prop_footer_layout');
+
+        global $foodzone_options;
+        $layout    =   isset($foodzone_options ['footer-style'])   ? $foodzone_options ['footer-style']  :  "1";
+
+
+        if ($layout   ==  1) {
+          return  get_template_part( 'template-parts/footer/footer-1');
+
         } else {
-            return get_template_part('template-parts/footer/footer', $layout);
+
+            return  get_template_part( 'template-parts/footer/footer-2');
+
         }
+
     }
 
 }
@@ -157,6 +165,37 @@ if (!function_exists('foodzone_footer_copyrights')) {
             $copyrights_text = $foodzone_options["prop_footer_copyrights"];
         }
         return $copyrights_text;
+    }
+
+}
+
+
+
+
+//solcial media icon function
+
+if (!function_exists('food_social_icons')) {
+
+    function food_social_icons($social_network) {
+        $social_icons = array(
+            'Facebook' => 'fa fa-facebook',
+            'Twitter' => 'fa fa-twitter ',
+            'Linkedin' => 'fa fa-linkedin ',
+            'Google' => 'fa fa-google-plus',
+            'YouTube' => 'fa fa-youtube-play',
+            'Vimeo' => 'fa fa-vimeo ',
+            'Pinterest' => 'fa fa-pinterest ',
+            'Tumblr' => 'fa fa-tumblr ',
+            'Instagram' => 'fa fa-instagram',
+            'Reddit' => 'fa fa-reddit ',
+            'Flickr' => 'fa fa-flickr ',
+            'StumbleUpon' => 'fa fa-stumbleupon',
+            'Delicious' => 'fa fa-delicious ',
+            'dribble' => 'fa fa-dribbble ',
+            'behance' => 'fa fa-behance',
+            'DeviantART' => 'fa fa-deviantart',
+        );
+        return $social_icons[$social_network];
     }
 
 }

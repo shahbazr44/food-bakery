@@ -102,7 +102,7 @@
     );
     Redux::setArgs( $opt_name, $args );
 	/* Load Theme Functions */
-    Redux::setSection( $opt_name, array(
+    Redux::set_Section( $opt_name, array(
         'title'            => esc_html__( 'Theme Settings', 'foodzone' ),
         'id'               => 'theme-settings',
         'desc'             => esc_html__( 'These are really basic fields to setup theme!', 'foodzone' ),
@@ -110,7 +110,7 @@
         'icon'             => 'el el-wrench'
     ) );
 
-    Redux::setSection( $opt_name, array(
+    Redux::set_Section( $opt_name, array(
         'title'            => esc_html__( 'General Settings', 'foodzone' ),
         'id'               => 'general-settings',
         'subsection'       => true,
@@ -161,28 +161,31 @@
 			
         )
     ) );
-    
-    
-    
-    
-    
-    
-          
-            
+
+
+
+
+
+    Redux::set_Section( $opt_name, array(
+        'title'            => esc_html__( 'Main Header Setting', 'foodzone' ),
+        'id'               => 'main-head',
+        'icon' => 'el el-tasks'
+    ));
     //Top bar portion start Here!        
             
             
-       Redux::setSection( $opt_name, array(
-        'title'  => esc_html__( 'Top Bar Settings', 'ct-theme' ),
+       Redux::set_Section( $opt_name, array(
+        'title'  => esc_html__( 'Top Bar Settings', 'foodzone' ),
         'id'     => 'top-bar',
+        'subsection'       => true,
         'icon'   => 'el el-arrow-up',
         'fields' => array(
 			
 		array(
 		'id'       => 'topbar-switch',
 		'type'     => 'switch', 
-		'title'    => __('Topbar Show/Hide', 'ct-theme'),
-		'subtitle' => __('', 'ct-theme'),
+		'title'    => __('Topbar Show/Hide', 'foodzone'),
+		'subtitle' => __('', 'foodzone'),
 		'default'  => 'true',
 			
 	       ),
@@ -191,9 +194,9 @@
 			'id'       => 'opt-multi-select',
 			'type'     => 'select',
 			'multi'    => true,
-			'title'    => __('Topbar Select Pages', 'ct-theme'), 
-			'subtitle' => __('Select the number of pages', 'ct-theme'),
-			'desc'     => __('', 'ct-theme'),
+			'title'    => __('Topbar Select Pages', 'foodzone'),
+			'subtitle' => __('Select the number of pages', 'foodzone'),
+			'desc'     => __('', 'foodzone'),
 			'data'     => 'pages', // select pages
 			'args'     => array( 'posts_per_page' => -1 ),
 			'default'  => '',
@@ -206,9 +209,9 @@
             array(
                 'id'       => 'opt-text-location',
                 'type'     => 'text',
-                'title'    => esc_html__( 'Top bar Location Field', 'ct-theme' ),
+                'title'    => esc_html__( 'Top bar Location Field', 'foodzone' ),
                 'desc'     => esc_html__( '', 'ct-theme' ),
-                'subtitle' => esc_html__( 'Please input the Location', 'ct-theme' ),
+                'subtitle' => esc_html__( 'Please input the Location', 'foodzone' ),
 				'placeholder' => 'input your current location',
 				array(
                 'validate' => 'not_empty'
@@ -222,9 +225,9 @@
             array(
                 'id'       => 'opt-text-cell',
                 'type'     => 'text',
-                'title'    => esc_html__( 'Top bar Phone Number Field', 'ct-theme' ),
-                'desc'     => esc_html__( '', 'ct-theme' ),
-                'subtitle' => esc_html__( 'Please input the Phone Number', 'ct-theme' ),
+                'title'    => esc_html__( 'Top bar Phone Number Field', 'foodzone' ),
+                'desc'     => esc_html__( '', 'foodzone' ),
+                'subtitle' => esc_html__( 'Please input the Phone Number', 'foodzone' ),
 				'placeholder' => 'input your phone number!',
 				array(
                 'validate' => 'not_empty'
@@ -236,12 +239,13 @@
             ),
 			
         )
-    ) );     
-            
+    ) );
 
-	
+
+
+
 	/* ------------------ Header  ----------------------- */
-		Redux::setSection( $opt_name, array(
+		Redux::set_Section( $opt_name, array(
         'title'            => esc_html__( 'Header Settings', 'foodzone' ),
         'id'               => 'real-header',
         'subsection'       => true,
@@ -349,14 +353,10 @@
 		
         )
     ) );
-                
-                
-                
-                
-                
-   
-   /* ------------------ Required Form Fields ----------------------- */
-		Redux::setSection( $opt_name, array(
+
+
+/* ------------------ Breadcrumbs Fields ----------------------- */
+		Redux::set_Section( $opt_name, array(
         'title'            => esc_html__( 'Breadcrumbs', 'foodzone' ),
         'id'               => 'prop_breads',
         'subsection'       => true,
@@ -386,4 +386,198 @@
                 'required' => array('prop_selected_bread', '=', 'two'),
             ),
         )
-    ) );             
+    ) );
+
+
+
+
+
+//Top Footer Setting start Here!
+
+        Redux::set_Section( $opt_name, array(
+            'title'            => esc_html__( 'Main Footer Setting', 'foodzone' ),
+            'id'               => 'main-Footer',
+            'icon' => 'el el-tasks'
+        ));
+
+
+        Redux::set_Section( $opt_name, array(
+            'title'  => esc_html__( 'Footer Style Setting', 'foodzone' ),
+            'id'     => 'footer-style-menu',
+            'subsection' => true,
+            'icon'   => 'el el-arrow-up',
+            'fields' => array(
+             array(
+                    'id'       => 'footer-style',
+                    'type'     => 'image_select',
+                    'title'    => esc_html__( 'Chose Footer Style', 'foodzone' ),
+                    'desc'     => esc_html__( 'Select Footer Layout you want to show.', 'foodzone' ),
+                    'options'  => array(
+                        '1' => array(
+                            'alt' => esc_html__('Footer Layout 1','foodzone'),
+                            'img' => esc_url(trailingslashit( get_template_directory_uri () )) . 'libs/images/options/footer-white.png'
+                        ),
+                        '2' => array(
+                            'alt' => esc_html__('Footer Layout 2','foodzone'),
+                            'img' => esc_url(trailingslashit( get_template_directory_uri () )) . 'libs/images/options/footer-black.png'
+                        ),
+                    ),
+                    'default'  => '1'
+                     ),
+                 )
+                ));
+
+
+            Redux::set_Section( $opt_name, array(
+                'title'  => esc_html__( 'Footer Pages Setting', 'foodzone' ),
+                'id'     => 'footer-pages-main',
+                'subsection' => true,
+                'icon'   => 'el el-arrow-up',
+                'fields' => array(
+                    array(
+                        'id' => 'use_full_heading',
+                        'type' => 'text',
+                        'title' => __( 'Footer Menu Use Full Pages Title' , 'foodzone' ),
+                        'desc' => __( 'Please give the Title of the Pages' , 'foodzone' ),
+                        'default' => __('Useful Links', 'foodzone')
+                    ),
+                array(
+                    'id'       => 'use_full_links',
+                    'type'     => 'select',
+                    'multi'    => true,
+                    'title'    => __('Footer Select Pages', 'foodzone'),
+                    'subtitle' => __('Select the number of pages', 'foodzone'),
+                    'desc'     => __('', 'foodzone'),
+                    'data'     => 'pages', // select pages
+                    'args'     => array( 'posts_per_page' => -1 ),
+                    'default'  => '',
+                    'required' => array(
+                        array('topbar-switch', '!=', false),
+                    )
+                ),
+                    array(
+                        'id' => 'news_letter_heading',
+                        'type' => 'text',
+                        'title' => __( 'Footer News Letter Title' , 'foodzone' ),
+                        'desc' => __( 'Please give the Title of the News Letter' , 'foodzone' ),
+                        'default' => __('Get Newsletter', 'foodzone')
+                    ),
+                     array(
+                         'id' => 'news_text_area',
+                         'type' => 'textarea',
+                         'rows' => '3',
+                         'title' => __( 'Give short Description about your News Letter' , 'foodzone' ),
+
+                     ),
+                    array(
+                        'id' => 'news-email-placeholder',
+                        'type' => 'text',
+                        'title' => __( 'Give the Placeholder Text ' , 'foodzone' ),
+                        'placeholder' => __( 'Enter Your Email Address' , 'foodzone' ),
+                        'default' => __('Enter your Email Address', 'foodzone')
+                    ),
+                    array(
+                        'id' => 'news-email-button',
+                        'type' => 'text',
+                        'title' => __( 'Enter the Title of Subscribe button ' , 'foodzone' ),
+                        'default' => __('Subscribe', 'foodzone')
+                    ),
+                    array(
+                        'id' => 'social-title',
+                        'type' => 'text',
+                        'title' => __( 'Enter Social Icon Title ' , 'foodzone' ),
+                        'default' => __('Social Links', 'foodzone')
+                    )
+
+                )
+             ));
+
+            Redux::set_Section( $opt_name, array(
+                'title'  => esc_html__( 'All Social Fields', 'foodzone' ),
+                'id'     => 'social_link',
+                'subsection' => true,
+                'icon'   => 'el el-arrow-up',
+                'fields' => array(
+                    array(
+                        'id'      => 'social_media',
+                        'type'    => 'sortable',
+                        'title'   => esc_html__( 'Social Media', 'carspot' ),
+                        'desc'    => esc_html__( 'You can sort it out as you want.', 'carspot' ),
+                        'label'   => true,
+                        'options' => array(
+                            'Facebook'    => '',
+                            'Twitter'     => '',
+                            'Linkedin'    => '',
+                            'Google'      => '',
+                            'YouTube'     => '',
+                            'Vimeo'       => '',
+                            'Pinterest'   => '',
+                            'Tumblr'      => '',
+                            'Instagram'   => '',
+                            'Reddit'      => '',
+                            'Flickr'      => '',
+                            'StumbleUpon' => '',
+                            'Delicious'   => '',
+                            'dribble'     => '',
+                            'behance'     => '',
+                            'DeviantART'  => '',
+                        ),
+                        'default' => array(
+                            'Facebook' => '#',
+                            'Twitter'  => '#',
+                            'Linkedin' => '#',
+                            'Google'   => '#',
+                            'YouTube'  => '#',
+                        ),
+                    ),
+                )
+             ));
+
+
+
+
+
+
+
+
+Redux::setSection( $opt_name,  array(
+    'title' => __('Repeater Field', 'redux-framework-demo' ),
+    'icon' => 'el-icon-thumbs-up',
+    'fields' => array(
+        array(
+            'id'             => 'repeater-field-id',
+            'type'           => 'repeater',
+            'title'          => __( 'Title', 'redux-framework-demo' ),
+            'subtitle'       => __( '', 'redux-framework-demo' ),
+            'desc'           => __( '', 'redux-framework-demo' ),
+            'fields'         => array(
+                array(
+                    'id'          => 'title_field',
+                    'type'        => 'text',
+                    'placeholder' => __( 'Title', 'redux-framework-demo' ),
+                ),
+                array(
+                    'id'          => 'text_field',
+                    'type'        => 'text',
+                    'placeholder' => __( 'Text Field', 'redux-framework-demo' ),
+                ),
+                array(
+                    'id'      => 'select_field',
+                    'type'    => 'select',
+                    'title'   => __( 'Select Field', 'redux-framework-demo' ),
+                    'options' => array(
+                        '1'      => __( 'Option 1', 'redux-framework-demo' ),
+                        '2'      => __( 'Option 2', 'redux-framework-demo' ),
+                        '3'      => __( 'Option 3', 'redux-framework-demo' ),
+                    ),
+                    'placeholder' => __( 'Listing Field', 'redux-framework-demo' ),
+                ),
+            )
+        )
+    )
+) );
+
+
+
+
+

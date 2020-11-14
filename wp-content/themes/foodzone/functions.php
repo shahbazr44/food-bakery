@@ -14,8 +14,7 @@ if (!function_exists("foodzone_setup")) {    /* Theme Settings */
         require trailingslashit(get_template_directory()) . "inc/theme_settings.php";
         /* Custom Navigation Walker */
         require trailingslashit(get_template_directory()) . "inc/nav.php";
-        /* Load Redux Options */
-        require trailingslashit(get_template_directory()) . "inc/options.php";
+
         /* Theme localization */
         require trailingslashit(get_template_directory()) . "inc/localization.php";
         /* Theme Functions */
@@ -26,6 +25,8 @@ if (!function_exists("foodzone_setup")) {    /* Theme Settings */
         require trailingslashit(get_template_directory()) . "inc/typography.php";
         /* Theme TGM */
         require trailingslashit(get_template_directory()) . "tgm/tgm-init.php";
+        /* Load Redux Options */
+        require trailingslashit(get_template_directory()) . "inc/options.php";
     }
 
 }

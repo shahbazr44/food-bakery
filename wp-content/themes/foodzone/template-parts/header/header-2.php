@@ -1,7 +1,8 @@
 <?php
 
 global $foodzone_options;
-$logo = isset($foodzone_options['prop_main_logo']['url'])  ?  $foodzone_options['prop_main_logo']['url']  : "";
+$theme_log = get_template_directory_uri().'/libs/images/logo.png';
+$logo = isset($foodzone_options['prop_main_logo']['url'])  ?  $foodzone_options['prop_main_logo']['url']  : $theme_log;
 ?>
 
 

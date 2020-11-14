@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="blog-section-2">
+<section class="res-blog-hero section-padding-v">
   <div class="container">
     <div class="row">
 	<?php
