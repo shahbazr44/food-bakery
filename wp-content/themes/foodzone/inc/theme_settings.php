@@ -48,6 +48,8 @@ add_image_size('foodzone-background', 375, 300, true);
 add_image_size('foodzone-extra-small', 190, 183, true);
 add_image_size('foodzone-similar', 275, 234, true);
 
+
+
 // This theme uses wp_nav_menu() in one location.
 register_nav_menus(array(
     'main_theme_menu' => esc_html__('Foodzone Menu', 'foodzone'),
@@ -71,7 +73,8 @@ add_theme_support('custom-background', apply_filters('foodzone_custom_background
 // Register side bar for widgets
 add_action('widgets_init', 'foodzone_widgets_init');
 if (!function_exists('foodzone_widgets_init')) {
-    function foodzone_widgets_init() {
+    function foodzone_widgets_init()
+    {
         //Blog Sidebar		
         register_sidebar(array(
             'name' => esc_html__('Blog Sidebar', 'foodzone'),
@@ -90,6 +93,6 @@ if (!function_exists('foodzone_widgets_init')) {
 }
 register_nav_menus(
     array(
-        'main-nav'   => 'Main Navigation',
+        'main-nav' => 'Main Navigation',
     )
 );

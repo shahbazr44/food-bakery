@@ -199,3 +199,26 @@ if (!function_exists('food_social_icons')) {
     }
 
 }
+
+if ( ! function_exists( 'foodzone_color_text' ) ) {
+
+    function foodzone_color_text( $str ) {
+        preg_match_all( '~<color>([^<]*)</color>~i', $str, $matches );
+        $i     = 1;
+        $found = array();
+        foreach ( $matches as $key => $val ) {
+            if ( $i == 2 ) {
+                $found = $val;
+            }
+            $i ++;
+        }
+        foreach ( $found as $k ) {
+            $search  = "<color>" . $k . "</color>";
+            $replace = '<span class="theme-color">' . $k . '</span>';
+            $str     = str_replace( $search, $replace, $str );
+        }
+
+        return $str;
+    }
+
+}

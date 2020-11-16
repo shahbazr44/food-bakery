@@ -6,19 +6,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ddcf31-a5f3-4cb5-9ca2-d1dbf1fa8d1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/template-parts/footer/footer-2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/archive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/options.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/theme_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/theme_functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/css/module.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/css/module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/blog/get-blog-posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/blog/get-blog-posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/theme_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/theme_settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/theme_utilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/theme_utilities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/e1.png._00_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/e2.png._00_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/gbb.png._00_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/o1.png._00_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/o2.png._00_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/agency-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/agency-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/agency-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/agency-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/agency-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/agency-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/agency-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/agent-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/agent-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/agent-list-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/classic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/elegent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/l1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/l2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/l3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/l4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/l5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/p1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/p2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/p3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/p4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/p5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/p6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/p7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/search_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/search_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/options/search_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/p1-x.png._00_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/p2-x.png._00_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/s13.png._00_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/s14.png._00_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/s16.png._00_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/images/sd.png._00_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/blog/blog-detial/content-area.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/blog/blog-detial/content-area.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/blog/blog-detial/content-page-area.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/blog/blog-detial/content-page-area.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/blog/content-area.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/blog/content-area.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-parts/footer/footer-1.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/footer/footer-1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/header/header-1.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/header/header-1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/header/header-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/header/header-2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/footer/footer-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/footer/footer-2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +89,7 @@
       <updated>1605155772406</updated>
       <workItem from="1605155773614" duration="27440000" />
       <workItem from="1605241124358" duration="19004000" />
+      <workItem from="1605500994364" duration="27952000" />
     </task>
     <servers />
   </component>
@@ -79,10 +117,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="634" y="353" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1605164912657" />
-    <state x="506" y="134" width="587" height="592" key="find.popup" timestamp="1605163135841">
+    <state x="506" y="134" width="587" height="592" key="find.popup" timestamp="1605531309771">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="506" y="134" width="587" height="592" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1605163135841" />
+    <state x="506" y="134" width="587" height="592" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1605531309771" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1605259680597">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

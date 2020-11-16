@@ -1,6 +1,7 @@
 <?php global
 $foodzone_options;
 $foot_black='';
+$copy_right_titl= isset($foodzone_options['copy_right']) ? $foodzone_options['copy_right'] : '';
 if(isset($foodzone_options['footer-style']) && $foodzone_options['footer-style']==2){
     $foot_black="res-footer-2";
 }
@@ -15,7 +16,7 @@ if(isset($foodzone_options['footer-style']) && $foodzone_options['footer-style']
 		<div class="row">
 			<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 				<div class="res-bottom-text text-center">
-					<p>Copyright 2020 © Theme Created By <a href="#">Scriptsbundle</a> All Rights Reserved</p>
+					<p>Copyright 2020 © Theme Created By <a href="#"><?php echo $copy_right_titl; ?></a> All Rights Reserved</p>
 				</div>
 			</div>
 		</div>

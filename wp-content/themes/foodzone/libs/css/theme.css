@@ -42,6 +42,9 @@ a:hover {
     background: #ff7900;
     border: 1px solid #ff6800;;
 }
+.theme-color{
+    color: #ff7900;
+}
 
 p {
     font-size: 14px;

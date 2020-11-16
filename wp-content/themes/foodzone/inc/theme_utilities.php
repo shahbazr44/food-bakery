@@ -58,12 +58,14 @@ if (!function_exists('foodzone_breadcrumb')) {
 
     function foodzone_breadcrumb()
     {
-
+        global $foodzone_options;
+        $bread_bg = get_template_directory_uri() . '/libs/images/options/bread.png';
+        $breads = isset($foodzone_options['bread_back']['url']) ? $foodzone_options['bread_back']['url'] : $bread_bg;
 
         ?>
 
 
-        <section class="res-srch-hero res-srch-hero-x">
+        <section class="res-srch-hero res-srch-hero-x" style="background-image: url('<?php echo $breads; ?>')">
             <div class="container">
                 <div class="row">
                     <div class="col-xxl-12 col-xl-12 col-sm-12 col-md-12">
@@ -424,51 +426,53 @@ if (!function_exists('foodzone_custom_comments')) {
                 <?php
                 if ($depth > 1) {
                     echo '<div class="res-blog3-box">';
-                }?>
+                } ?>
 
-                <div class="res-blog2-srch-main-co-4" >
-                <div class="res-blog2-srch-main-content" <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
+                <div class="res-blog2-srch-main-co-4">
+                    <div class="res-blog2-srch-main-content" <?php comment_class(); ?>
+                         id="li-comment-<?php comment_ID(); ?>">
 
-                    <div class="res-blog2-srch-profile">
-                        <?php
-                        if ($comment->user_id) {
-                            echo get_avatar($comment, null, $default, $alt, array('class' => array('img-fluid')));
-                        } else {
-                            echo get_avatar($comment, 100);
-                        }
-                        ?>
+                        <div class="res-blog2-srch-profile">
+                            <?php
+                            if ($comment->user_id) {
+                                echo get_avatar($comment, null, $default, $alt, array('class' => array('img-fluid')));
+                            } else {
+                                echo get_avatar($comment, 100);
+                            }
+                            ?>
 
 
+                        </div>
 
-                    </div>
-
-                    <div class="res-blog2-srch-text">
-                        <h3><?php echo get_comment_author_link(); ?></h3>
-                        <ul>
-                            <li>
-                                <p><i class="fa fa-clock-o"></i><?php printf(esc_html('%1$s', 'foodzone'), get_comment_date(), get_comment_time()); ?></p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="res-blog2-rep-cont">
+                        <div class="res-blog2-srch-text">
+                            <h3><?php echo get_comment_author_link(); ?></h3>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <i class="fa fa-clock-o"></i><?php printf(esc_html('%1$s', 'foodzone'), get_comment_date(), get_comment_time()); ?>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="res-blog2-rep-cont">
                             <p>
                                 <i class="fa fa-comment"></i>
 
                                 <?php comment_reply_link(array_merge($args, array('depth' => $depth, 'max_depth' => $args['max_depth'], 'add_below' => 'li-comment', 'reply_text' => 'Reply')), $comment_id); ?>
 
                             </p>
-                    </div>
-                    <div class="re-blog2-conf2">
-                        <?php echo comment_text(); ?>
+                        </div>
+                        <div class="re-blog2-conf2">
+                            <?php echo comment_text(); ?>
+                        </div>
+
                     </div>
 
-                </div>
-
-                <?php
-                if ($depth > 1) {
-                    echo '</div>';
-                }
-                ?>
+                    <?php
+                    if ($depth > 1) {
+                        echo '</div>';
+                    }
+                    ?>
                 </div>
                 <?php
                 break;
