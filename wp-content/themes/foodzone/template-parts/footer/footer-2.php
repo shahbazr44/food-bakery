@@ -20,7 +20,7 @@ $dinner_time = isset($foodzone_options['dinner-schedule']) ? $foodzone_options['
         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6">
             <div class="res-f-container">
                 <div class="heading-panel2">
-                    <h3><?php echo $opening_hour; ?></h3>
+                    <h3><?php echo foodzone_returnEcho($opening_hour); ?></h3>
                 </div>
                 <div class="res-f-items">
 
@@ -36,7 +36,7 @@ $dinner_time = isset($foodzone_options['dinner-schedule']) ? $foodzone_options['
                 </div>
                 <div class="res-f-items">
                     <div class="heading-panel2">
-                        <h3><?php echo $dinner_title; ?></h3>
+                        <h3><?php echo foodzone_returnEcho($dinner_title); ?></h3>
                     </div>
                     <div class="res-f-icon"><img
                                 src="<?php echo trailingslashit(get_template_directory_uri()) ?>libs/images/clock-x.png ?>"
@@ -53,17 +53,13 @@ $dinner_time = isset($foodzone_options['dinner-schedule']) ? $foodzone_options['
         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6">
             <div class="res-f-content2 section-padding">
                 <div class="heading-panel2">
-                    <h3><?php echo $news_title; ?></h3>
-                    <p><?php echo $news_text; ?></p>
+                    <h3><?php echo foodzone_returnEcho($news_title); ?></h3>
+                    <p><?php echo foodzone_returnEcho($news_text); ?></p>
                 </div>
                 <div class="res-f-social">
                     <div class="heading-panel2">
-                        <h3><?php echo $social_text; ?></h3>
+                        <h3><?php echo foodzone_returnEcho($social_text); ?></h3>
                     </div>
-                    <!--              <a href="#"><i class="fa fa-facebook"></i></a>-->
-                    <!--              <a href="#"><i class="fa fa-linkedin"></i></a>-->
-                    <!--              <a href="#"><i class="fa fa-twitter"></i></a>-->
-
                     <?php
                     if (isset($foodzone_options['social_media']) && $foodzone_options['social_media'] != "") {
                         foreach ($foodzone_options['social_media'] as $index => $val) {
@@ -89,7 +85,7 @@ $dinner_time = isset($foodzone_options['dinner-schedule']) ? $foodzone_options['
         <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-6">
             <div class="res-f-main section-padding">
                 <div class="heading-panel2">
-                    <h3><?php echo $us_links; ?></h3>
+                    <h3><?php echo foodzone_returnEcho($us_links); ?></h3>
                 </div>
                 <?php
                 if (isset($foodzone_options['use_full_links']) ? $foodzone_options['use_full_links'] : '')
@@ -107,7 +103,7 @@ $dinner_time = isset($foodzone_options['dinner-schedule']) ? $foodzone_options['
         <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-6">
             <div class="res-f-main section-padding">
                 <div class="heading-panel2">
-                    <h3><?php echo $suport_links; ?></h3>
+                    <h3><?php echo foodzone_returnEcho($suport_links); ?></h3>
                 </div>
                 <?php
                 if (isset($foodzone_options['support_links']) ? $foodzone_options['support_links'] : '')

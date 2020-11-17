@@ -9,21 +9,21 @@ if (!function_exists('adforest_bread_crumb_heading')) {
         global $adforest_theme;
 
         if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option('active_plugins'))) && is_shop()) {
-            $page_heading = isset($adforest_theme['shop-number-page-title']) ? $adforest_theme['shop-number-page-title'] : __('Shop', 'adforest');
+            $page_heading = isset($adforest_theme['shop-number-page-title']) ? $adforest_theme['shop-number-page-title'] : __('Shop', 'foodzone');
         } else if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option('active_plugins'))) && is_product()) {
-            $page_heading = isset($adforest_theme['shop-single-page-title']) ? $adforest_theme['shop-single-page-title'] : __('Details', 'adforest');
+            $page_heading = isset($adforest_theme['shop-single-page-title']) ? $adforest_theme['shop-single-page-title'] : __('Details', 'foodzone');
         } else if (is_search()) {
-            $string = esc_html__('entire web', 'adforest');
+            $string = esc_html__('entire web', 'foodzone');
             if (get_search_query() != "") {
                 $string = get_search_query();
             }
-            $page_heading = sprintf(esc_html__('Search Results for: %s', 'adforest'), esc_html($string));
+            $page_heading = sprintf(esc_html__('Search Results for: %s', 'foodzone'), esc_html($string));
         } else if (is_category()) {
             $page_heading = esc_html(single_cat_title("", false));
         } else if (is_tag()) {
-            $page_heading = esc_html__('Tag: ', 'adforest') . esc_html(single_tag_title("", false));
+            $page_heading = esc_html__('Tag: ', 'foodzone') . esc_html(single_tag_title("", false));
         } else if (is_404()) {
-            $page_heading = esc_html__('Page not found', 'adforest');
+            $page_heading = esc_html__('Page not found', 'foodzone');
         } else if (is_author()) {
             $author_id = get_query_var('author');
             $author = get_user_by('ID', $author_id);
@@ -31,14 +31,14 @@ if (!function_exists('adforest_bread_crumb_heading')) {
         } else if (is_tax()) {
             $page_heading = esc_html(single_cat_title("", false));
         } else if (is_archive()) {
-            $page_heading = __('Blog Archive', 'adforest');
+            $page_heading = __('Blog Archive', 'foodzone');
         } else if (is_home()) {
-            $page_heading = esc_html__('Latest Stories', 'adforest');
+            $page_heading = esc_html__('Latest Stories', 'foodzone');
         } else if (is_singular('post')) {
             if (isset($adforest_theme['sb_blog_single_title']) && $adforest_theme['sb_blog_single_title'] != "") {
                 $page_heading = $adforest_theme['sb_blog_single_title'];
             } else {
-                $page_heading = __('Blog Detail', 'adforest');
+                $page_heading = __('Blog Detail', 'foodzone');
             }
         } else if (is_singular('page')) {
             $page_heading = get_the_title();
@@ -46,7 +46,7 @@ if (!function_exists('adforest_bread_crumb_heading')) {
             if (isset($adforest_theme['sb_single_ad_text']) && $adforest_theme['sb_single_ad_text'] != "")
                 $page_heading = $adforest_theme['sb_single_ad_text'];
             else
-                $page_heading = __('Ad Detail', 'adforest');
+                $page_heading = __('Ad Detail', 'foodzone');
         }
 
         return $page_heading;
@@ -59,13 +59,13 @@ if (!function_exists('foodzone_breadcrumb')) {
     function foodzone_breadcrumb()
     {
         global $foodzone_options;
-        $bread_bg = get_template_directory_uri() . '/libs/images/options/bread.png';
+        $bread_bg = get_template_directory_uri() . '/libs/images/options/p1-x.png';
         $breads = isset($foodzone_options['bread_back']['url']) ? $foodzone_options['bread_back']['url'] : $bread_bg;
 
         ?>
 
 
-        <section class="res-srch-hero res-srch-hero-x" style="background-image: url('<?php echo $breads; ?>')">
+        <section class="res-srch-hero res-srch-hero-x" style="background-image: url('<?php echo foodzone_returnEcho($breads); ?>')">
             <div class="container">
                 <div class="row">
                     <div class="col-xxl-12 col-xl-12 col-sm-12 col-md-12">

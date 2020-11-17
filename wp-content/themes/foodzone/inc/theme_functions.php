@@ -108,13 +108,13 @@ if (!function_exists('foodzone_site_footer')) {
     function foodzone_site_footer() {
 
         global $foodzone_options;
-        $layout    =   isset($foodzone_options ['footer-style'])   ? $foodzone_options ['footer-style']  :  "1";
+        $layout    =   isset($foodzone_options ['footer-style'])   ? $foodzone_options ['footer-style']  :  "";
 
 
         if ($layout   ==  1) {
           return  get_template_part( 'template-parts/footer/footer-1');
 
-        } else {
+        } elseif($layout == 2) {
 
             return  get_template_part( 'template-parts/footer/footer-2');
 
@@ -221,4 +221,11 @@ if ( ! function_exists( 'foodzone_color_text' ) ) {
         return $str;
     }
 
+}
+
+//echo funtion for html
+
+function foodzone_returnEcho($html = '')
+{
+    return $html;
 }

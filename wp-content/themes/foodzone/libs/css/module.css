@@ -10,6 +10,9 @@
 .box-content .richText .richText-editor:focus {
     border-left: #ff7900 solid 2px;
 }
+.content-area{
+    padding: 0px;
+}
 
 .res-top-left ul li {
     float: left;
@@ -170,11 +173,11 @@
 .res-menu i {
     font-size: 18px;
     background-color: #f3f5ff;
-    padding: 6px 10px;
+    padding: 10px 10px;
     margin-right: 6px;
     border-radius: 4px;
     line-height: 20px;
-    width: 35px;
+    width: 40px;
     text-align: center;
     transition: .6s;
     color: #000;
@@ -213,10 +216,6 @@
 
 .res-menu.sb-header.sticky {
     top: 90px;
-}
-
-.res-menu .sb-menu > ul > li:last-child > a {
-    padding: 0;
 }
 
 .res-menu .btn-style {
@@ -3136,6 +3135,7 @@
 
 .res-blog-banner img {
     width: 100%;
+    border-radius: 8px;
 }
 
 .res-blog-hero .res-blog-box {
@@ -3359,10 +3359,20 @@ span.recent-ads-list-location a {
     margin-top: 10px;
     margin-bottom: 0;
 }
+.res-response{
+    position: relative;
+}
 
-.res-blog2-socials {
-    float: left;
-    margin-right: 20px;
+.res-blog2-socials.fix-position {
+    position: fixed;
+    left: 50px;
+    right: auto;
+    top: 65%;
+}
+.res-blog2-socials.static-position {
+    margin-left: 50px;
+    position: absolute;
+    top: 110px;
 }
 
 .res-blog2-banner {
@@ -3836,6 +3846,10 @@ span.recent-ads-list-location a {
     margin-top: 10px;
 }
 
+.children .form-btn-res,.res-blog2-srch-main-co-4 .form-btn-res{
+    margin-top: 25px;
+}
+
 .res-post-comment .form-control:focus {
     box-shadow: none !important;
     background-color: #f3f5ff;
@@ -3879,8 +3893,15 @@ span.recent-ads-list-location a {
 
 .res-blog2-srch-main-co-4 .comment-respond {
     padding: 25px 20px;
-    padding-bottom: 60px;
     background-color: #f3f5ff;
+    overflow: auto;
+}
+
+.children .comment-respond{
+    padding-bottom: 0px;
+}
+.children .res-blog3-box{
+  overflow: auto;
 }
 
 .res-blog2-srch-main-co-4 .comment-respond .comment-reply-title {

@@ -165,7 +165,7 @@ Redux::set_Section($opt_name, array(
 Redux::set_Section($opt_name, array(
     'title' => esc_html__('Main Header Setting', 'foodzone'),
     'id' => 'main-head',
-    'icon' => 'el el-tasks'
+    'icon' => 'el el-cogs'
 ));
 //Top bar portion start Here!
 
@@ -206,7 +206,7 @@ Redux::set_Section($opt_name, array(
             'id' => 'opt-text-location',
             'type' => 'text',
             'title' => esc_html__('Top bar Location Field', 'foodzone'),
-            'desc' => esc_html__('', 'ct-theme'),
+            'desc' => esc_html__('', 'foodzone'),
             'subtitle' => esc_html__('Please input the Location', 'foodzone'),
             'placeholder' => 'input your current location',
             array(
@@ -245,7 +245,7 @@ Redux::set_Section($opt_name, array(
     'subsection' => true,
     'customizer_width' => '450px',
     'desc' => '',
-    'icon' => 'el el-lock',
+    'icon' => 'el el-tasks',
     'fields' => array(
 
         array(
@@ -274,6 +274,31 @@ Redux::set_Section($opt_name, array(
             'desc' => esc_html__('Upload main logo of your website size should be 180x40 PX.', 'foodzone'),
             'default' => array('url' => trailingslashit(get_template_directory_uri()) . 'libs/images/logo.svg'),
         ),
+        array(
+            'id' => 'social_media_header',
+            'type' => 'sortable',
+            'title' => esc_html__('Social Media', 'foodzone'),
+            'desc' => esc_html__('You can sort it out as you want.', 'foodzone'),
+            'label' => true,
+            'options' => array(
+                'Facebook' => '',
+                'Twitter' => '',
+                'Linkedin' => '',
+                'Google' => '',
+                'YouTube' => '',
+                'Vimeo' => '',
+                'Pinterest' => '',
+                'Tumblr' => '',
+                'Instagram' => '',
+                'Reddit' => '',
+                'Flickr' => '',
+                'StumbleUpon' => '',
+                'Delicious' => '',
+                'dribble' => '',
+                'behance' => '',
+                'DeviantART' => '',
+            )
+        )
 
     )
 ));
@@ -285,7 +310,7 @@ Redux::set_Section($opt_name, array(
     'id' => 'prop_breads',
     'subsection' => true,
     'customizer_width' => '450px',
-    'icon' => 'el el-tasks',
+    'icon' => 'el el-certificate',
     'fields' => array(
         array(
             'id' => 'prop_selected_bread',
@@ -317,7 +342,7 @@ Redux::set_Section($opt_name, array(
 Redux::set_Section($opt_name, array(
     'title' => esc_html__('Blog Page Settings', 'foodzone'),
     'id' => 'blog',
-    'icon' => 'el el-tasks',
+    'icon' => 'el el-website',
     'fields' => array(
         array(
             'id' => 'blog_banner_1',
@@ -328,6 +353,28 @@ Redux::set_Section($opt_name, array(
             'default' => array('url' => trailingslashit(get_template_directory_uri()) . 'libs/images/options/banner-x.png'),
             'desc' => esc_html__('Please give the image size 770X100 px.', 'foodzone'),
         ),
+        array(
+            'id' => 'social-switch',
+            'type' => 'switch',
+            'title' => __('Social Media buttons  Show/Hide on Blog Detail page', 'foodzone'),
+            'subtitle' => __('', 'foodzone'),
+            'default' => 'true',
+
+        ),
+        array(
+            'id'       => 'social-position',
+            'type'     => 'button_set',
+            'title'    => __('Set Social Media buttons Position', 'foodzone'),
+            'subtitle' => __('You Can choose the Social Media button position', 'foodzone'),
+            'options' => array(
+                '1' => 'Fixed Position',
+                '2' => 'Scroll Position',
+            ),
+            'default' => '1',
+            'required' => array(
+                array('social-switch', '!=', false),
+            ),
+        )
     )
 ));
 
@@ -337,7 +384,7 @@ Redux::set_Section($opt_name, array(
 Redux::set_Section($opt_name, array(
     'title' => esc_html__('Main Footer Setting', 'foodzone'),
     'id' => 'main-Footer',
-    'icon' => 'el el-tasks'
+    'icon' => 'el el-cog'
 ));
 
 
@@ -345,7 +392,7 @@ Redux::set_Section($opt_name, array(
     'title' => esc_html__('Footer Style Setting', 'foodzone'),
     'id' => 'footer-style-menu',
     'subsection' => true,
-    'icon' => 'el el-arrow-up',
+    'icon' => 'el el-bulb',
     'fields' => array(
         array(
             'id' => 'footer-style',
@@ -372,7 +419,7 @@ Redux::set_Section($opt_name, array(
     'title' => esc_html__('Footer Pages Setting', 'foodzone'),
     'id' => 'footer-pages-main',
     'subsection' => true,
-    'icon' => 'el el-arrow-up',
+    'icon' => 'el el-graph-alt',
     'fields' => array(
         array(
             'id' => 'use_full_heading',
@@ -492,7 +539,7 @@ Redux::set_Section($opt_name, array(
     'title' => esc_html__('All Social Fields', 'foodzone'),
     'id' => 'social_link',
     'subsection' => true,
-    'icon' => 'el el-arrow-up',
+    'icon' => 'el el-ok-sign',
     'fields' => array(
         array(
             'id' => 'social-title',
@@ -503,8 +550,8 @@ Redux::set_Section($opt_name, array(
         array(
             'id' => 'social_media',
             'type' => 'sortable',
-            'title' => esc_html__('Social Media', 'carspot'),
-            'desc' => esc_html__('You can sort it out as you want.', 'carspot'),
+            'title' => esc_html__('Social Media', 'foodzone'),
+            'desc' => esc_html__('You can sort it out as you want.', 'foodzone'),
             'label' => true,
             'options' => array(
                 'Facebook' => '',
@@ -536,16 +583,4 @@ Redux::set_Section($opt_name, array(
 
     )
 ));
-
-
-
-
-
-
-
-
-
-
-
-
 

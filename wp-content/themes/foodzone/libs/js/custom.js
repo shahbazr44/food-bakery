@@ -1,12 +1,12 @@
 // JavaScript Document
 
+
 if(jQuery('.js-example-basic-single').length > 0){
 $(document).ready(function () {
 	"use strict";
 	$('.js-example-basic-single').select2();
 });
 }
-
 
 if(jQuery('.bla-1').length > 0){
 jQuery(function () {
@@ -288,7 +288,9 @@ $("#c").click(function () {
             transitionDuration: '0.7s',
         });
     });
-    
+
+
+	$('p:empty').remove();
 
 })(jQuery);
 

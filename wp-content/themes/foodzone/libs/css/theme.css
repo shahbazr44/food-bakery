@@ -40,7 +40,16 @@ a:hover {
     color: #fff;
     font-size: 20px;
     background: #ff7900;
-    border: 1px solid #ff6800;;
+    border: 1px solid #ff6800;
+}
+.gallery-caption{
+    margin: 0px;
+}
+.bypostauthor{
+    margin: 0px;
+}
+.aligncenter {
+    margin: 0px;
 }
 .theme-color{
     color: #ff7900;

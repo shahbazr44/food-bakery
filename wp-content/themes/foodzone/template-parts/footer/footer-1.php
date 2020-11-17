@@ -17,7 +17,7 @@ $dinner_time = isset($foodzone_options['dinner-schedule']) ? $foodzone_options['
         <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
             <div class="res-f-main section-padding">
                 <div class="heading-panel2">
-                    <h3><?php echo $us_links; ?></h3>
+                    <h3><?php echo foodzone_returnEcho($us_links); ?></h3>
                 </div>
                 <?php
                 if (isset($foodzone_options['use_full_links']) ? $foodzone_options['use_full_links'] : '')
@@ -37,17 +37,17 @@ $dinner_time = isset($foodzone_options['dinner-schedule']) ? $foodzone_options['
         <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-6">
             <div class="res-f-content2 section-padding px-0 col-lg-10">
                 <div class="heading-panel2">
-                    <h3><?php echo $news_title; ?></h3>
-                    <p><?php echo $news_text; ?></p>
+                    <h3><?php echo foodzone_returnEcho($news_title); ?></h3>
+                    <p><?php echo foodzone_returnEcho($news_text); ?></p>
                 </div>
                 <form>
                     <div class="form-group">
-                        <input type="text" placeholder="<?php echo $news_input; ?>" class="form-control">
-                        <a href="#" class="btn btn-theme"><?php echo $news_button; ?></a></div>
+                        <input type="text" placeholder="<?php echo foodzone_returnEcho($news_input); ?>" class="form-control">
+                        <a href="#" class="btn btn-theme"><?php echo foodzone_returnEcho($news_button); ?></a></div>
                 </form>
                 <div class="res-f-social">
                     <div class="heading-panel2">
-                        <h3><?php echo $social_text; ?></h3>
+                        <h3><?php echo foodzone_returnEcho($social_text); ?></h3>
                     </div>
                     <?php
                     if (isset($foodzone_options['social_media']) && $foodzone_options['social_media'] != "") {
@@ -76,7 +76,7 @@ $dinner_time = isset($foodzone_options['dinner-schedule']) ? $foodzone_options['
             <div class="res-f-container">
                 <div class="res-f-container-inner">
                     <div class="heading-panel2">
-                        <h3><?php echo $opening_hour; ?></h3>
+                        <h3><?php echo foodzone_returnEcho($opening_hour); ?></h3>
                     </div>
                     <div class="res-f-items">
                         <div class="res-f-icon"><img
@@ -91,7 +91,7 @@ $dinner_time = isset($foodzone_options['dinner-schedule']) ? $foodzone_options['
                     </div>
                     <div class="res-f-items">
                         <div class="heading-panel2">
-                            <h3><?php echo $dinner_title; ?></h3>
+                            <h3><?php echo foodzone_returnEcho($dinner_title); ?></h3>
                         </div>
                         <div class="res-f-icon"><img
                                     src="<?php echo trailingslashit(get_template_directory_uri()) ?>libs/images/clock-x.png ?>"

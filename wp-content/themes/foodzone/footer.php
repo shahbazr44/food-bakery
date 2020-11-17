@@ -1,14 +1,14 @@
 <?php global
 $foodzone_options;
 $foot_black='';
-$copy_right_titl= isset($foodzone_options['copy_right']) ? $foodzone_options['copy_right'] : '';
+$copy_right_titl= isset($foodzone_options['copy_right']) ? $foodzone_options['copy_right'] : esc_html__('Scriptsbundle', 'foodzone');
 if(isset($foodzone_options['footer-style']) && $foodzone_options['footer-style']==2){
     $foot_black="res-footer-2";
 }
 ?>
-<section class="res-footer <?php echo $foot_black; ?> ">
+<section class="res-footer <?php echo foodzone_returnEcho($foot_black); ?> ">
     <?php //get_template_part( 'template-parts/footer/footer-1');
-    echo foodzone_site_footer();
+    echo foodzone_returnEcho(foodzone_site_footer());
 
     ?>
     <div class="res-f-bottom">
@@ -16,7 +16,7 @@ if(isset($foodzone_options['footer-style']) && $foodzone_options['footer-style']
 		<div class="row">
 			<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 				<div class="res-bottom-text text-center">
-					<p>Copyright 2020 © Theme Created By <a href="#"><?php echo $copy_right_titl; ?></a> All Rights Reserved</p>
+					<p>Copyright 2020 © Theme Created By <a href="http://elusiveicons.com/icon/ok-sign/"><?php echo foodzone_returnEcho($copy_right_titl); ?></a> All Rights Reserved</p>
 				</div>
 			</div>
 		</div>

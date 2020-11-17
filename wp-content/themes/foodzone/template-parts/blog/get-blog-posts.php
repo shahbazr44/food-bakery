@@ -42,14 +42,14 @@ if (have_posts()) {
                     ?>
 
                     <div class="res-blog-content">
-                        <div class="res-blog-content2 <?php echo $mrt; ?>"> <a href="<?php the_permalink(); ?>">
+                        <div class="res-blog-content2 <?php echo foodzone_returnEcho($mrt); ?>"> <a href="<?php the_permalink(); ?>">
                                 <div class="res-blog-style"><?php the_title(); ?></div>
                             </a>
                             <p><?php echo wp_trim_words(get_the_excerpt(), 7); ?></p>
                             <a href="<?php the_permalink(); ?>"><span><?php echo esc_html__('Read More', 'foodzone'); ?><i class="fa fa-long-arrow-right"></i></span></a> </div>
                         <div class="res-blog-detail">
                             <ul>
-                                <li> <span><img src="<?php echo trailingslashit(get_template_directory_uri())?>libs/images/time.png ?>" alt="<?php echo esc_attr__('icon','foodzone'); ?>" class="img-fluid"><?php echo $date = date_i18n( 'M j, Y' ); ?></span> </li>
+                                <li> <span><img src="<?php echo trailingslashit(get_template_directory_uri())?>libs/images/time.png ?>" alt="<?php echo esc_attr__('icon','foodzone'); ?>" class="img-fluid"><?php echo date_i18n( 'M j, Y' ); ?></span> </li>
                                 <?php if (!post_password_required() && ( comments_open() || '0' != get_comments_number() )) : ?>
                                     <li class="right"> <span><img src="<?php echo trailingslashit(get_template_directory_uri())?>libs/images/cc.png ?>" alt="<?php echo esc_attr__('icon','foodzone') ?>" class="img-fluid"><?php echo foodzone_blogcomments_count(); ?> </span> </li>
                                         <?php endif; ?>
