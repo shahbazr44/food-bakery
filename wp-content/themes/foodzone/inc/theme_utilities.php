@@ -67,15 +67,15 @@ if (!function_exists('foodzone_breadcrumb')) {
 
         <section class="res-srch-hero res-srch-hero-x" style="background-image: url('<?php echo foodzone_returnEcho($breads); ?>')">
             <div class="container">
-                <div class="row">
-                    <div class="col-xxl-12 col-xl-12 col-sm-12 col-md-12">
+              <div class="row">
+                    <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div class="res-blog-grid">
                             <h2><?php echo foodzone_breadcrumb_function(); ?></h2>
                             <a href="<?php echo home_url('/'); ?>"><?php echo esc_html__('Home', 'foodzone'); ?> </a>
                             <a href="javascript:void(0);"> <?php echo foodzone_breadcrumb_function(); ?> </a>
                         </div>
                     </div>
-                </div>
+              </div>
         </section>
 
 

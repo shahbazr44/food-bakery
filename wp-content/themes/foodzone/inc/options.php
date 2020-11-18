@@ -275,6 +275,13 @@ Redux::set_Section($opt_name, array(
             'default' => array('url' => trailingslashit(get_template_directory_uri()) . 'libs/images/logo.svg'),
         ),
         array(
+                'id'       => 'prop_site_spinner',
+                'type'     => 'switch',
+                'title'    => esc_html__( 'Show Site Preloader', 'foodzone' ),
+                'default'  => true,
+                'desc'     => esc_html__( 'Trun on or off site loader.', 'foodzone' ),
+            ),
+        array(
             'id' => 'social_media_header',
             'type' => 'sortable',
             'title' => esc_html__('Social Media', 'foodzone'),

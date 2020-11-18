@@ -1,6 +1,4 @@
 // JavaScript Document
-
-
 if(jQuery('.js-example-basic-single').length > 0){
 $(document).ready(function () {
 	"use strict";

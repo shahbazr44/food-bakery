@@ -127,10 +127,14 @@ if (!function_exists('foodzone_site_footer')) {
 // Site Preloader
 if (!function_exists('foodzone_site_spinner')) {
 
+
     function foodzone_site_spinner() {
         global $foodzone_options;
+        $your_loading= trailingslashit(get_template_directory_uri()).'libs/images/options/loading.gif';
+
         if (isset($foodzone_options['prop_site_spinner']) && $foodzone_options['prop_site_spinner'] == true) {
-            return '<div class="preloader-site"><div class="lds-ripple"><div></div><div></div></div></div>';
+           // return '<div class="preloader-site"><div class="lds-ripple"><div></div><div></div></div></div>';
+            return '<div class="preloader-site"><div class="lds-ripple"><img src="'.$your_loading.'"></div></div>';
         }
     }
 
