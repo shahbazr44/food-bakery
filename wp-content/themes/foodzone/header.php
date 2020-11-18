@@ -12,7 +12,7 @@
 <?php
 
 ?>
-    <body>
+    <body <?php body_class(); ?>>
 <?php
 echo foodzone_site_spinner();
 if (is_page_template('page-signup.php') && foodzone_strings('prop_enable_head_foot') == false || is_page_template('page-signin.php') && foodzone_strings('prop_enable_head_foot') == false) {

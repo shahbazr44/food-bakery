@@ -40,7 +40,7 @@ $b_banner = isset($foodzone_options['blog_banner_1']['url']) ? $foodzone_options
                                 <img src="<?php echo trailingslashit(get_template_directory_uri()) ?>libs/images/eye.png ?>"
                                      alt="<?php echo esc_attr__('icon', 'foodzone'); ?>" class="img-fluid"></p>
                             <?php
-                            if (is_plugin_active('post-views-counter/post-views-counter.php')) {
+                            if(class_exists('Post_Views_Counter')){
                                 echo do_shortcode('[post-views]');
                             }
                             ?>
