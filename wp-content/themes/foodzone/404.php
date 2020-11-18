@@ -1,23 +1,30 @@
 <?php get_header();
+global $foodzone_options;
+$not_page_imag= get_template_directory_uri().'/libs/images/options/gv.png';
+$sub_heading=isset($foodzone_options['sub_not_heading']) ? $foodzone_options['sub_not_heading'] : esc_html__('OOPS!!!', 'foodzone');
+$main_heading=isset($foodzone_options['main_not_heading']) ? $foodzone_options['main_not_heading'] : esc_html__('Page Not Be Found','foodzone');
+$main_detail=isset($foodzone_options['not_detail']) ? $foodzone_options['not_detail'] : esc_html__('when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five','foodzone');
+$button_text=isset($foodzone_options['not_text_button']) ? $foodzone_options['not_text_button'] : esc_html__('Go To Home', 'foodzone');
+$button_url=isset($foodzone_options['not_button_link']) ? $foodzone_options['not_button_link'] : esc_url( home_url( '/' ));
+$not_img=isset($foodzone_options['not_image']['url']) ? $foodzone_options['not_image']['url'] : $not_page_imag;
 $image_id = '';
 ?>
-<section class="error-page-section section-padding">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="error-page-content">
-                        	<h1> <?php echo esc_html__( '404', 'foodzone' ); ?> </h1>
-                            <h2><?php echo esc_html__( 'Oops! Page Not Found', 'foodzone' ); ?></h2>
-                            <p><?php echo esc_html__( "We're sorry, but the page you were looking for doesn't exist.", 'foodzone' ); ?></p>
-                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn btn-theme"><i class="fas fa-home"></i>  <?php echo esc_html__('  Go to Home', 'foodzone' ); ?></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="error-thumbnail text-center">
-                            <img src="<?php echo esc_url(trailingslashit(get_template_directory_uri())."libs/images/404.png"); ?>" alt="<?php echo esc_attr(get_post_meta($image_id, '_wp_attachment_image_alt', TRUE)); ?>" class="img-fluid">
-                        </div>
-                    </div>
+    <section class="res-404 section-padding-v">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 align-self-center">
+                    <div class="res-404-content"> <span><?php echo foodzone_returnEcho($sub_heading); ?></span>
+                        <h3><?php echo foodzone_returnEcho($main_heading);  ?></h3>
+                        <p><?php echo foodzone_returnEcho($main_detail); ?></p>
+                        <a href="<?php echo foodzone_returnEcho($button_url); ?>" class="btn btn-theme"><i class="fa fa-home" aria-hidden="true"></i><?php echo foodzone_returnEcho($button_text); ?></a> </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
+                    <div> <img src="<?php echo foodzone_returnEcho($not_img) ?>" alt="<?php echo esc_attr__('Page not Found image', 'foodzone'); ?>" class="img-fluid"> </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
+
+
 <?php get_footer(); ?>

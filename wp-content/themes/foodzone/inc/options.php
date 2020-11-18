@@ -320,7 +320,7 @@ Redux::set_Section($opt_name, array(
             'options' => array(
                 'one' => array(
                     'alt' => esc_html__('Classic', 'foodzone'),
-                    'img' => esc_url(trailingslashit(get_template_directory_uri())) . 'libs/images/options/bread.png'
+                    'img' => esc_url(trailingslashit(get_template_directory_uri())) . 'libs/images/options/bread-style.png'
                 ),
             ),
             'default' => 'one'
@@ -534,7 +534,7 @@ Redux::set_Section($opt_name, array(
 
     )
 ));
-
+//Social Media start Here!
 Redux::set_Section($opt_name, array(
     'title' => esc_html__('All Social Fields', 'foodzone'),
     'id' => 'social_link',
@@ -584,3 +584,55 @@ Redux::set_Section($opt_name, array(
     )
 ));
 
+//404 Page Field start Here!
+
+Redux::set_Section($opt_name, array(
+    'title' => esc_html__('404 Pages Setting', 'foodzone'),
+    'id' => 'page_not',
+    'icon' => 'el el-remove',
+    'fields' => array(
+        array(
+            'id' => 'sub_not_heading',
+            'type' => 'text',
+            'title' => __('Given Page 404 Sub Heading', 'foodzone'),
+            'default' => __('OOPS!!!', 'foodzone')
+        ),
+        array(
+            'id' => 'main_not_heading',
+            'type' => 'text',
+            'title' => __('Given page 404 Main Heading', 'foodzone'),
+            'default' => __('Page Not Be FoundPage', 'foodzone')
+        ),
+        array(
+            'id' => 'not_detail',
+            'type' => 'textarea',
+            'rows' => '3',
+            'title' => __('Given the detail the 404 page', 'foodzone'),
+            'default' => __('when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five', 'foodzone')
+        ),
+        array(
+            'id' => 'not_text_button',
+            'type' => 'text',
+            'title' => __('Given page 404 button Text', 'foodzone'),
+            'default' => __('Go To Home', 'foodzone')
+        ),
+        array(
+            'id' => 'not_button_link',
+            'type' => 'text',
+            'title' => __('Given button Text Link', 'foodzone'),
+            'default' => ( home_url( '/' ) ),
+        ),
+        array(
+            'id' => 'not_image',
+            'type' => 'media',
+            'url' => true,
+            'title' => esc_html__('Given page 404 Image', 'foodzone'),
+            'compiler' => 'true',
+            'default' => array('url' => trailingslashit(get_template_directory_uri()) . 'libs/images/options/gv.png'),
+            'desc' => esc_html__('Please give the image size 750X450 px.', 'foodzone'),
+        ),
+
+
+
+    )
+));

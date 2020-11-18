@@ -6,7 +6,18 @@
 }
 
 /*menu-css*/
-
+.sb-menu li.dropdown_menu > ul{
+    top:95px;
+}
+.menu-caret.sb-menu li.dropdown_menu > ul{
+    top:0px;
+}
+.res-menu .sb-menu ul li.dropdown_menu ul.dropdown-menu.show {
+    top:25px !important;
+}
+.sb-menu > ul > li:last-child > a {
+    padding: 0px !important;
+}
 .box-content .richText .richText-editor:focus {
     border-left: #ff7900 solid 2px;
 }
@@ -94,7 +105,12 @@
 }
 
 .res-menu .sb-menu {
-    margin-top: 26px;
+    padding: 25px 0px;
+}
+
+.res-menu.sticky .sb-menu {
+    margin-top:0px;
+    padding: 14px 0px;
 }
 
 .hdr-left {
@@ -117,11 +133,6 @@
     background-color: #f3f5ff;
     color: #ff7900;
 }
-
-.res-menu.sticky .res-nav {
-    margin-top: 15px;
-}
-
 .res-menu.sb-header.sticky .sb-menu > ul > li > a {
     height: auto;
     line-height: inherit;
@@ -130,7 +141,12 @@
 .res-menu ul li:last-child i {
     margin-right: 0;
 }
-
+.res-menu ul li.hdr-left i {
+    margin-right: 5px;
+}
+.res-menu ul li.hdr-left a {
+    border-radius: .25rem;
+}
 .res-menu .btn-style i {
     font-size: 14px;
     margin-right: 5px;
@@ -1193,6 +1209,10 @@
     color: #fff;
     background-color: #ff7900;
 }
+.res-footer-2 .res-f-social i:hover {
+    color: #fff;
+    background-color: #ff7900;
+}
 
 .res-f-social .heading-panel2 {
     margin-bottom: 20px;
@@ -1974,6 +1994,7 @@
 
 .res-header-3 .sb-menu ul li.color-x .btn-theme {
     color: #fff !important;
+    border-radius: 4px;
 }
 
 .res-header-3.header-dark .sb-menu li > ul {
