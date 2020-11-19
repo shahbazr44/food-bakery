@@ -282,6 +282,19 @@ Redux::set_Section($opt_name, array(
                 'desc'     => esc_html__( 'Trun on or off site loader.', 'foodzone' ),
             ),
         array(
+            'id' => 'spinner_image',
+            'type' => 'media',
+            'url' => true,
+            'subsection' => true,
+            'title' => esc_html__('upload your site spinner Image', 'foodzone'),
+            'compiler' => 'true',
+            'desc' => esc_html__('Upload your site spinner image size 150px X 150px', 'foodzone'),
+            'default' => array('url' => trailingslashit(get_template_directory_uri()) . 'libs/images/options/loading.gif'),
+            'required' => array(
+                array('prop_site_spinner', '!=', false),
+            )
+        ),
+        array(
             'id' => 'social_media_header',
             'type' => 'sortable',
             'title' => esc_html__('Social Media', 'foodzone'),

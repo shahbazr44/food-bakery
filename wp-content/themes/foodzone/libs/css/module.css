@@ -9,6 +9,9 @@
 .sb-menu li.dropdown_menu > ul{
     top:95px;
 }
+.sb-header{
+    z-index: 9 !important;
+}
 .menu-caret.sb-menu li.dropdown_menu > ul{
     top:0px;
 }
