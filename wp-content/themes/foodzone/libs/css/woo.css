@@ -1,0 +1,10 @@
+/*Thtis is woocommerce style css*/
+.woocommerce div.product div.images,.woocommerce-page div.product div.images,.woocommerce div.product div.summary,.woocommerce-page div.product div.summary{
+    width:100%;
+}
+.woocommerce span.onsale {
+    min-width: 3.8em;
+    top: .5em;
+    left: .5em;
+    z-index: 8;
+}

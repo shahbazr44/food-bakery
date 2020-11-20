@@ -47,6 +47,7 @@ add_image_size('foodzone-primary-banner', 730, 450, true);
 add_image_size('foodzone-background', 375, 300, true);
 add_image_size('foodzone-extra-small', 190, 183, true);
 add_image_size('foodzone-similar', 275, 234, true);
+add_image_size('foodzone-woo-images', 370, 240, true);
 
 
 

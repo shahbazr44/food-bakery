@@ -27,6 +27,8 @@ if (!function_exists("foodzone_setup")) {    /* Theme Settings */
         require trailingslashit(get_template_directory()) . "tgm/tgm-init.php";
         /* Load Redux Options */
         require trailingslashit(get_template_directory()) . "inc/options.php";
+        /*Load the woocommerce funtion*/
+        require trailingslashit(get_template_directory()). "inc/woo-function.php";
     }
 
 }
@@ -97,6 +99,7 @@ function foodzone_scripts() {
     wp_enqueue_style("bootstrap", trailingslashit(get_template_directory_uri()) . "libs/css/bootstrap.min.css");
     wp_enqueue_style("foodzone-theme", trailingslashit(get_template_directory_uri()) . "libs/css/theme.css");
     wp_enqueue_style("foodzone-module", trailingslashit(get_template_directory_uri()) . "libs/css/module.css");
+    wp_enqueue_style("foodzone-woo", trailingslashit(get_template_directory_uri()) . "libs/css/woo.css");
     wp_enqueue_style("select2", trailingslashit(get_template_directory_uri()) . "libs/css/select2.min.css");
     wp_enqueue_style("awesome", trailingslashit(get_template_directory_uri()) . "libs/css/awesome.css");
     wp_enqueue_style("YouTubePopUp", trailingslashit(get_template_directory_uri()) . "libs/css/YouTubePopUp.css");
